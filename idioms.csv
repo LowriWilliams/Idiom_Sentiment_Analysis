@@ -1,0 +1,581 @@
+id,idiom,definition,positive,negative,other
+1,a moot point,A subject which gives rise to argument or debate.,0,40,60
+2,nothing doing,This term means that there is no way you would accept to do what is proposed.,0,80,20
+3,at odds,To disagree with someone.,0,100,0
+4,olive branch,To show that someone wants to end a disagreement and make peace.,100,0,0
+5,out of the question,To be impossible and is therefore not worth discussing.,0,100,0
+6,over someone's dead body,This expression is used by someone who absolutely refuses to allow someone to do something.,0,100,0
+7,pick a fight,To deliberately look for an opportunity to start a quarrel or begin an argument.,0,100,0
+8,pick holes,To criticize something or try to find fault with it.,0,100,0
+9,press something home,To insist on a point in a discussion or argument.,0,40,60
+10,running battle,To argue or disagree about something over a long period of time.,0,100,0
+11,send someone packing,"To tell someone to leave, in a very forceful and unfriendly way.",0,100,0
+12,shouting match,An argument or debate where people shout loudly at each other.,0,100,0
+13,sink someone's differences,To decide to forget disagreements.,100,0,0
+14,sit on the fence,To avoid taking sides in a discussion or argument.,0,20,80
+15,skating on thin ice,To do or say something that could cause disagreement or trouble.,0,100,0
+16,split hairs,To pay too much attention to differences that are very small or unimportant.,0,100,0
+17,water under the bridge,If something difficult or unpleasant took place in the past but is no longer important.,80,0,20
+18,wipe the slate clean,"To make a fresh start and forget all past offences, disagreements or mistakes.",100,0,0
+19,cat and dog life,A life in which partners are constantly or frequently quarrelling.,0,100,0
+20,caught in the crossfire,To suffer the effects of an argument or dispute between two people or groups.,0,100,0
+21,clear the air,"To try to remove the causes of fear, worry or suspicion by talking about the problem openly.",80,0,20
+22,dead set against,To be strongly opposed to something.,0,80,20
+23,devil's advocate,To pretend to be against an idea or plan in order to determine the validity of the arguments in favour of it.,20,20,60
+24,fight like cat and dog,"Two people who fight or argue frequently have violent arguments, even though they are fond of each other.",0,80,20
+25,go against the tide/stream,"To refuse to conform to current trends, or the opinions or behaviour of other people.",0,40,60
+26,hammer and tongs,"To argue fiercely, with a lot of energy and noise.",0,80,20
+27,let bygones be bygones,To decide to forget about past disagreements.,100,0,0
+28,let sleeping dogs lie,To ask someone not to interfere with a situation because they could cause problems.,0,60,40
+29,at loggerheads,To disagree very strongly with someone.,0,100,0
+30,lock horns,To argue or fight with someone about something.,0,100,0
+31,no love lost,When two people do not like each other at all.,0,100,0
+32,make a mountain out of a molehill,"To make a small, unimportant problem seem much more serious than it is.",0,100,0
+33,much ado about nothing,To make a lot of fuss about something which is not important.,0,60,40
+34,argue the toss,To dispute a decision or choice which has already been made.,0,80,20
+35,all hell broke loose,A sudden angry or noisy reaction to something.,0,100,0
+36,battle lines are drawn,This expression is used to say that opposing groups are ready to defend the reason behind the conflict.,0,60,40
+37,battle of wills,"A conflict, argument or struggle where both sides are determined to win is described as a battle of wills.",0,40,60
+38,blamestorming,"A discussion among a group of people who try to determine who or what is to blame for a particular mistake, failure or wrongdoing.",0,100,0
+39,bone of contention,A matter or subject about which there is a lot of disagreement.,0,80,20
+40,bone to pick,To be annoyed with someone and want to talk to them about it.,0,100,0
+41,in the bad books,To have someone's disapproval.,0,100,0
+42,bury the hatchet,When people who have had a disagreement decide to forget their quarrel and become friends again.,100,0,0
+43,call someone's bluff,To challenge someone to do what they threaten to do (while believing that they will not dare to do it).,20,20,60
+44,up in arms,To be very angry.,0,100,0
+45,get off someone's back,To be annoyed and ask them to stop finding faults or criticize you.,0,100,0
+46,bear with sore head,To bevery irritable and bad-tempered.,0,100,0
+47,bite head off,To criticize someone strongly.,0,100,0
+48,black mood,"To be irritable, angry or even depressed.",0,100,0
+49,blow a fuse,To suddenly lose your temper and become very angry.,0,100,0
+50,blow a gasket,To explode with anger.,0,100,0
+51,blow someone's top,To suddenly become very angry.,0,100,0
+53,cheesed off,"To be annoyed, bored or frustrated.",0,100,0
+54,come down like a ton of bricks,To be criticized severely because you have done something wrong.,0,100,0
+55,for crying out loud,"To show irritation, exasperation or anger.",0,100,0
+56,cut it out,To telling someone to stop doing something.,0,80,20
+57,drive up the wall,Where someone does something that greatly annoys or irritates you.,0,100,0
+58,eat you alive,To criticize someone severely because you are angry with them.,0,100,0
+59,fit to be tied,"To be extremely irritated, upset or angry.",0,100,0
+60,get/take flak,To receive severe criticism for something you have done.,0,100,0
+61,lea in someone's ear,"After an attempt at something, you are angrily reprimanded or humiliated.",0,100,0
+62,fly off the handle,To become suddenly very angry.,0,100,0
+63,foam at the mouth,To be extremely angry about something.,0,100,0
+64,get somebody's goat,To annoy or irritate someone.,0,100,0
+65,get someone's knickers in a twist,"To be angry, nervous or anxious when faced with a difficult situation.",0,100,0
+66,get a rise out of,To make someone react angrily by jokingly saying something that you know will irritate them.,0,80,20
+67,get in someone's hair,To annoy someone so much that they cannot get on with what they are doing.,0,100,0
+68,get on someone's nerves,To annoy or innitate someone a great deal.,0,100,0
+69,give it a rest,To ask someone to stop doing something such as complaining or talking continuously.,0,100,0
+70,give a piece of someone's mind,"To tell someone exactly what you think, in a very angry manner.",0,80,20
+71,give the (rough) edge of one's tongue,To scold someone severely or speak to someone very aggressively or rudely.,0,100,0
+72,give a tongue-lashing,"To scold someone severely,or speak to someone very aggressively or rudely.",0,100,0
+73,gloves are off,This expression is used when there are signs that a fight is about to start.,0,100,0
+74,go ballistic,When someone becomes very angry.,0,100,0
+75,go off the deep end,When someone becomes so angry or upset that they cannot control their emotions.,0,100,0
+76,go postal,To lose your temper and express your anger in a violent way.,0,100,0
+77,go spare,To lose your temper completely.,0,100,0
+78,go through the roof,To become very angry.,0,100,0
+79,good riddance,This expression is used to express relief at becoming free of an unpleasant or unwanted person or thing.,60,20,20
+80,harp on,To tire others by talking continuously and tediously about it.,0,100,0
+81,haul over the coals,To  reprimand someone harshly because they have done something wrong or incorrectly.,0,100,0
+82,hot under the collar,"To feel annoyed, indignant or embarrassed.",0,100,0
+83,jump down someone's throat,To suddenly start shouting at someone in a very angry manner.,0,100,0
+85,kick yourself,To be angry with yourself for something you have or have not done.,0,100,0
+86,like a red flag to a bull,To make sure someone is very angry or upset.,0,100,0
+87,look daggers at,To look at someone very angrily.,0,100,0
+88,make someone's hackles rise,To make you angry.,0,100,0
+89,make a song and dance,If someone complains in an annoying way or becomes unnecessarily excited about something unimportant.,0,60,40
+90,mind someone's own business,A rude way of saying that somone is interfering in something that does not concern them.,0,100,0
+91,more heat than light,To cause anger or intense reaction but doesn't clarify anything.,0,100,0
+92,quick temper,To get angry very easily.,0,100,0
+93,rant and rave,To protest noisily and forcefully.,0,100,0
+94,rap on the knuckles,"To punish or reprimand, but not very severely, as a reminder not to do something again.",0,100,0
+95,road rage,Aggressive driving habits sometimes resulting in violence against other drivers.,0,100,0
+96,scream blue murder,To shout or complain very loudly as if something very serious has happened.,0,100,0
+97,see red,To become suddenly become very angry or annoyed.,0,100,0
+98,short fuse,To become angry easily or quickly.,0,100,0
+99,skin someone alive,To punish someone severely.,0,100,0
+100,smooth someone's ruffled feathers,To make someone feel less angry or offended.,100,0,0
+101,steamed up,"To become very angry, excited or enthusiastic about something.",0,40,60
+102,step on someone's toes,To annoy or irritate someone by intervening in a situation that is their responsibility.,0,100,0
+103,stick in someone's throat,Difficulty of accepting and makes you angry or resentful.,0,100,0
+104,a storm is brewing,"There is going to be trouble, probably with outbursts of anger or emotion.",0,100,0
+105,tear a strip off,To reprimand someone severely for doing something wrong.,0,100,0
+106,tell a thing or two,To express your thoughts usually criticism very clearly.,0,60,40
+107,makes someone's blood boil,To make you really angry.,0,100,0
+108,that's going too far,To do something that is considered extreme or unacceptable.,0,100,0
+109,take the biscuit,This expression refers to something very annoying or irritating.,0,100,0
+110,the last straw,This expression means that this is the latest unpleasant event and that you cannot tolerate the situation any longer.,0,100,0
+111,throw a wobbly,"When someone, usually a capricious person,throws a wobbly, they have a fit of nerves or bad temper and lose all self-control.",0,100,0
+113,try someone's patience,To find it difficult to be patient with someone because of their irritating attitude or behaviour.,0,100,0
+114,vent someone's spleen,To release or express all your anger about something.,0,80,20
+115,want someone's head on a platter,When someone makes you so angry that you want them to be punished.,0,100,0
+116,afraid of someone's own shadow,To be very nervous or easily frightened.,0,100,0
+117,bated breath,To be anxious and excited about an imminent event.,20,0,80
+118,make someone's blood run cold,Something which shocks or scares you a lot.,0,100,0
+119,break out in a cold sweat,"To begin to perspire a lot, usually from anxiety.",0,100,0
+120,bundle of nerves,"Someone who is very nervous, tense or worried.",0,100,0
+121,butterflies in stomach,To feel very nervous.,0,60,40
+122,can't stand the pace,To be unable to do things well when there is a lot of pressure.,0,100,0
+123,cat on hot bricks,To be very nervous or restless.,0,100,0
+124,on the edge of one's seat,To be very interested in something and fits with both extremely exciting and nerve-wracking.,20,0,80
+125,get someone's fingers burnt,To suffer as a result of an unsuccessful action and are nervous about trying again.,0,100,0
+126,heart in someone's mouth,To feel extremely anxious or nervous faced with a dangerous or unpleasant situation.,0,100,0
+127,heart misses a beat,To have sudden feeling of fear or excitement.,0,0,100
+128,heebie-jeebies,"A state of apprehension, nervousness or anxiety.",0,100,0
+129,hold someone's breath,To wait anxiously or excitedly for something to happen or be announced.,40,0,60
+130,"if you can't stand the heat, get out of the kitchen","This expression means that if you feel that there is too much pressure, you can leave.",0,80,20
+131,ignorance is bliss,"This means that if you don't know about a problem or unpleasant fact, you won't worry about it.",40,0,60
+132,get/have the jitters,To become very nervous or anxious and begin to shake.,0,100,0
+133,have kittens,"A dramatic way of expressing worry, anxiety or fear.",0,100,0
+134,nerves of steel,To not be afraid in difficult or dangerous situations.,100,0,0
+135,pins and needles,To be very anxious or nervous about what is going to happen.,0,80,20
+136,quaking in someone's boots,"When someone is extremely scared, it is said that they arequaking in their boots.",0,100,0
+137,scare out of someone's wits,To be very frightened or worried.,0,100,0
+138,scare daylights out of,To be terrified.,0,100,0
+139,scared stiff,To be so frightened that you're unable to move.,0,100,0
+140,shake like a leaf,To tremble with fear or nervousness.,0,100,0
+141,on tenterhooks,To be in a state of anxious suspense or excitement.,0,80,20
+142,tongue-tied,To have difficulty in expressing yourself because you are nervous or embarrassed.,0,80,20
+143,whistle in the dark,To try to hide your fear in a scary or dangerous situation.,0,80,20
+144,at someone's wit's end,To be very worried about something and do not know what to do.,0,100,0
+145,ants in someone's pants,To be very restless or excited about something.,20,0,80
+146,champ at the bit,"To be ready and eager to start an activity, and to show impatience at being delayed.",40,20,40
+147,dial it back,"To reduce the intensity of something, or tone it down.",40,0,60
+148,bright-eyed and bushy-tailed,To be very enthusiastic and full of energy.,100,0,0
+149,cause a stir,To create an atmosphere of excitement or great interest.,40,0,60
+150,do nothing by halves,When a person does everything they are engaged in completely and thoroughly.,100,0,0
+151,eager beaver,"A person who is hardworking and enthusiastic, sometimes considered overzealous.",60,0,40
+152,"eat, sleep and breathe something",To be enthusiastic and passionate about something that you think about it constantly.,80,0,20
+154,fever pitch,A very intense and exciting situation.,60,0,40
+155,fling someone into,To do an activity with a lot of energy and enthusiasm.,100,0,0
+156,go the extra mile,To do more than what is expected of you.,100,0,0
+157,hold someone's horses,To think someone is doing something too fast and should slow down and not rush into further action.,0,60,40
+158,lick someone's lips,To show that you're excited about something and are eager for it to happen.,100,0,0
+159,put someone's heart into,To  be very enthusiastic and invest a lot of energy and hard work in something.,100,0,0
+160,raring to go,To be very eager and enthusiastic about the idea of doing something.,100,0,0
+161,bare your heart (or soul) to someone,To reveal your innermost thoughts and feelings to someone.,40,0,60
+162,bear the brunt,To suffer the most when something bad or unpleasant happens.,0,100,0
+163,bent out of shape,To become annoyed or upset about something that is usually not that important or cannot be avoided.,0,100,0
+164,beside someone (with emotion),To lose your self-control because of the intensity of the emotion you are feeling.,0,60,40
+165,bored to tears,To find something so dull and uninteresting that it makes you sad enough to cry.,0,100,0
+166,carry the torch for,To have strong feelings for someone with whom you do not or cannot have a relationship.,100,0,0
+167,wouldn't be caught/seen dead,To be too ashamed or embarrassed of something.,0,100,0
+168,chip on someone's shoulder,"To feel resentful because you feel someone is being treated unfairly, especially because of their background, their sex or their colour.",0,100,0
+169,close to home,"A remark or comment so true, or it affects you so directly, that you feel uncomfortable.",0,100,0
+170,come apart at the seams,To be extremely upset or under severe mental stress.,0,100,0
+171,cork up something,To fail to show or express feelings or emotions.,0,80,20
+172,cut to the quick,To hurt someone's feelings or offend them deeply.,0,100,0
+173,deep down,"If you talk about how someone is, or feels, deep down, you are describing what they are like or what they really feel deep inside, behind the outward appearance.",20,0,80
+174,fish out of water,To feel uncomfortable in unfamiliar surroundings.,0,100,0
+175,fit of pique,"Someone who reacts by showing their resentment or annoyance when their pride has been wounded, or they feel insulted.",0,100,0
+176,Freudian slip,A mistake made by a speaker which is considered to reveal their true thoughts or feelings.,0,60,40
+177,have someone's heart in the right place,"A person who has their heart in the right place has kind feelings and good intentions, even if the results are not too good.",100,0,0
+178,get a grip on one's self,To try to control your feelings so as to be able to deal with a situation.,20,60,20
+179,get it out of someone's system,This expression means that you get rid of a strong emotion or desire by expressing it openly or trying to fulfill it.,40,0,60
+180,get worked up,"To become upset, annoyed or excited, often unnecessarily.",0,80,20
+181,go to pieces,To become so upset or distressed that you cannot lead a normal life.,0,100,0
+182,groan inwardly,"To feel like expressing despair, disapproval or distress, but you remain silent.",0,100,0
+183,guilty pleasure,"Enjoying something which is not generally held in high regard, while at the same time feeling a bit guilty about it.",20,20,60
+184,hard as nails,To be unsentimental and show no sympathy.,0,80,20
+185,head over heels in love,When a person falls passionately in love with another.,100,0,0
+186,change of heart,"To change your attitude or feelings, especially towards greater friendliness or cooperation.",40,0,60
+187,couldn't give a hoot,To not care at all about something.,20,0,80
+188,keep a stiff upper lip,To contain your emotion and do not let other people see your feelings.,40,0,60
+189,lick someone's wounds,"To try to recover your confidence or spirit after a defeat, failure or disappointment.",0,80,20
+190,look on the bright side,To view a mostly unpleasant situation in a positive and optimistic way and the see the favourable aspects.,100,0,0
+191,"love me, love my dog","This expression means that if someone loves you, they must love everything about you, including everyone and everything you love.",40,0,60
+192,lump in someone's throat,To have a tight feeling in your throat because of a strong emotion such as sadness or gratitude.,0,60,40
+193,makes someone's ears burn,"To be embarrassed by what you hear, especially if the conversation is about you.",0,80,20
+194,makes someone's flesh crawl,To fill you with disgust or make you feel very nervous.,0,100,0
+195,mixed feelings,To react to something with conflicting emotions; you are happy and unhappy at the same time.,0,20,80
+196,no hard feelings,To feel no resentment or bitterness about something.,80,0,20
+197,not give a hang,To be totally indifferent to it and do not care at all about it.,0,20,80
+198,not turn a hair,To show no emotion in circumstances where a reaction is expected.,0,20,80
+199,nose out of joint,To offends or annoy.,0,100,0
+200,open old wounds,"To revive memories of an unpleasant event, situation or dispute that took place in the past.",0,100,0
+201,pour someone's heart out,To express your feelings freely.,20,0,80
+202,proud as a peacock,To be extremely proud.,100,0,0
+203,pleased as punch,To be delighted or feels very satisfied about something.,100,0,0
+204,put foot in mouth,"To say something that offends, upsets or embarrasses someone.",0,100,0
+205,reduce to tears,When your behaviour or attitude makes someone cry.,0,100,0
+206,regain one's composure,To calm down and control your emotions again after a stressful or upsetting event.,80,0,20
+207,save face,To avoid humiliation or embarrassment and preserve dignity and the respect of others.,60,40,0
+208,have a soft spot,To like someone.,100,0,0
+209,speak volumes,"To express a reaction or opinion very clearly, with no need for words.",20,0,80
+210,let off steam,To release surplus energy or strong feelings either through intense physical activity or by talking in an unrestrained manner.,40,0,60
+212,in a stew,To be worried and agitated.,0,100,0
+213,a stitherum,"Someone who is (all) in a stitherum is excited, agitated or confused about something.",0,0,100
+214,strike a raw nerve,To upset someone because they are very sensitive about the subject.,0,100,0
+215,swallow someone's pride,To accept something humiliating or embarrassing.,20,60,20
+216,sweet nothings,Pleasant but unimportant words that lovers say to each other.,100,0,0
+217,take a fancy,To develop a fondness for someone or begin to like them.,100,0,0
+218,take a load/weight off someone's mind,To bring great relief because a problem has been solved.,100,0,0
+219,tear someone's hair out,To be extremely agitated or distressed about something.,0,100,0
+220,wear someone's heart on someone's sleeve,To allow others to see your emotions or feelings.,20,0,80
+221,wish the ground would swallow someone up,When you are so embarrassed by something that you would like to disappear.,0,100,0
+223,thank someone's lucky stars,To express heartfelt gratitude or feeling particularly fortunate.,100,0,0
+224,think the sun rises and sets on someone,To think the sun rises and sets on someone.,80,20,0
+225,think the world of,To admire someone very much.,100,0,0
+226,thinly veiled,"If something such as a feeling or reaction is thinly veiled, it is barely hidden.",0,0,100
+227,tug at the heartstrings,To cause others to feel a great deal of pity or sadness.,0,80,20
+228,weak at the knees,"To barely be able to stand because of emotion, fear or illness.",0,60,40
+229,be/mean the world to someone,To be very precious to someone.,100,0,0
+230,written all over face,When someone's feelings or thoughts are very clear.,0,20,80
+231,with bells on,To be delighted and eager to go somewhere.,100,0,0
+232,blow away the cobwebs,To feel more lively and refresh your ideas.,100,0,0
+233,chill out,"When people chill out, often after a period of heavy work or nervous tension, they do something that helps them to calm down and relax for a while.",100,0,0
+234,in someone's element,"To do something that you do well, and you are enjoying yourself.",100,0,0
+235,feast someone's eyes on,To be delighted and gratified by what you see.,100,0,0
+236,footloose and fancy-free,To have few responsibilities or  commitments of any kind and feel free to do as they please.,100,0,0
+237,in full swing,"When something, such as an event, gets into full swing, it is at its busiest or liveliest time.",60,0,40
+238,full of the joys of spring,"To be happy, enthusiastic and full of energy.",100,0,0
+240,have a ball,To enjoy yourself immensely.,100,0,0
+241,have the time of someone's life,To enjoy yourself very much.,100,0,0
+242,have a whale of a time,To  enjoy themselves a lot.,100,0,0
+243,let your hair down,Suggest to someone to relax and enjoy themselves.,100,0,0
+244,life and soul of the party,The life and soul of the party is the most lively and amusing person present at an event.,100,0,0
+245,live the life of Riley,"A person who lives the life of Riley has a comfortable and enjoyable life, without having to make much effort.",100,0,0
+246,more fun than a barrel of monkeys,If something is very amusing or enjoyable.,100,0,0
+247,paint the town red,"To go out and enjoy a lively evening in bars, night-clubs, etc.",100,0,0
+248,party is over,"When the period of happiness, freedom, enjoyment etc. has come to an end, and life is going to return to normal.",0,80,20
+249,pulling someone's leg,To tease someone by telling them something that is not true.,40,0,60
+250,pull the other one,"After hearing an unlikely story, this is a way of telling the speaker that you neither believe what they say nor whatever they may say next.",20,60,20
+251,punch line,The punch line is the funny sentence that ends a joke or an amusing story.,80,0,20
+252,ring out the old year and ring in the new,This expression means to announce and celebrate the end of one year and the beginning of the next.,60,0,40
+253,social butterfly,A person who has a lot of friends and acquaintances and likes to flit from one social event to another.,100,0,0
+254,sow one's wild oats,"A person, usually a man, who sows their wild oats goes through a period of carefree pleasure-seeking while they are young.",60,0,40
+255,take it easy,"When you relax, or do things at a comfortable pace, you take it easy.",100,0,0
+256,tickle the ivories,This is a humorous way of talking about playing the piano.,40,0,60
+257,wet the baby's head,To have drink to celebrate the birth of a baby.,100,0,0
+258,the world is someone's oyster,To be free and able to enjoy the pleasures and opportunities that life has to offer.,100,0,0
+259,on cloud nine,To be very happy because something wonderful has happened.,100,0,0
+260,cry someone's eyes out,To cry a lot and for a long time.,0,80,20
+261,like a dog with two tails,To be extremely happy.,100,0,0
+262,down in the dumps,To be depressed or feeling gloomy.,0,100,0
+263,down in the mouth,"To look unhappy, discouraged or depressed.",0,100,0
+264,face like a wet week-end,To look sad and miserable.,0,100,0
+265,fool's paradise,To be in a state of contentment that will not last because their happiness is based on illusion or false hope.,20,80,0
+267,grin from ear to ear,To look vey satisfied and happy.,100,0,0
+268,grin like a Cheshire cat,When someone has a smile on their face because they are happy or satisfied about something.,100,0,0
+269,happy camper,To be content or satisfied with what is happening in your lifes and have no complaints.,100,0,0
+270,happy as a flea in a doghouse,To be  very happy and content.,100,0,0
+271,happy as Larry,To be very happy indeed.,100,0,0
+272,happy-go-lucky,To be cheerful and carefree all the time.,100,0,0
+273,someone's heart sinks,To feel very unhappy and despondent.,0,100,0
+274,jump for joy,To expresshappiness through excited movements and gestures.,100,0,0
+275,life is just a bowl of cherries,This expression means that life is pleasant and uncomplicated.,100,0,0
+276,music to someone's ears,When the information that you receive makes you feel very happy.,100,0,0
+277,never looked back,"After an event which changed your life for the better, you continue to be happy with the situation.",100,0,0
+278,over the moon,To be very happy about something.,100,0,0
+280,in raptures,To be delighted or very enthusiastic.,100,0,0
+281,stars in someone's eyes,To looking extremely happy.,100,0,0
+282,in seventh heaven,To be extremely happy.,100,0,0
+283,in stitches,To laugh a lot.,100,0,0
+284,thrilled to bits,To be extremely pleased about something.,100,0,0
+285,tickled pink,To be very pleased about something.,100,0,0
+287,on top of the world,To be extremely happy because everything is going well.,100,0,0
+288,walking on air,When you are happy and excited because of a pleasant event that makes you feel as if you are floating.,100,0,0
+289,whatever floats someone's boat,"Although you don't quite agree with someone, it's their choice and you think they should so whatever makes them happy.",40,20,40
+290,away with the fairies,To be in a dreamy state so that you're not totally in touch with reality and give the impression of being slightly mad.,40,0,60
+291,go bananas,If someone becomes very emotional and starts behaving in a crazy way.,0,80,20
+292,basket case,A person whose agitated mental state leaves them helpless or unable to cope with things.,0,100,0
+293,bats in the belfry,To be crazy.,0,60,40
+294,to go out of someone's mind,"To be crazy, foolish or insane.",0,60,40
+295,harebrained idea,"An idea or suggestion that is considered to be silly, foolish or totally impractical.",0,100,0
+296,"the lights are on, but no one is home","This is a humorous way of referring to someone who is lacking intelligence or sanity, or to someone who is simply preoccupied and not paying attention.",0,60,40
+297,lose someone's marbles,"To become mentally confused, or no longer behave sensibly or rationally.",0,60,40
+298,not all there,"To behave strangely at times, or seems a bit odd.",0,60,40
+299,not in someone's right mind,To not behave in a logical or sensible way.,0,100,0
+300,not playing with a full deck (of cards),To lack intelligence or does not have full mental abilities.,0,100,0
+301,go nuts,"Someone who has become completely foolish, eccentric or mad.",0,60,40
+302,off someone's rocker,Someone who is completely crazy.,0,40,60
+303,rats in the attic,Someone who is bit mad or that their behaviour is eccentric.,0,60,40
+304,a screw loose,Someone who's behaviour is strange and they appear slightly mad.,0,100,0
+305,stark raving mad,Someone whos is completely crazy.,0,60,40
+306,stir crazy,Someone who become very agitated or nervous because they have been confined to a place for too long.,0,100,0
+307,take leave of someone's senses,To believe someone's behaviour is crazy.,0,80,20
+308,back the wrong horse,To support the wrong person.,0,100,0
+309,bark up the wrong tree,"To do the wrong thing, because your beliefs or ideas are incorrect or mistaken.",0,80,20
+310,botch up/make a botch of,"To spoil something, or make a mess of it, by doing a job badly or incorrectly.",0,100,0
+311,eat crow/ eat humble pie,To admit that you were wrong about something and apologize.,20,60,20
+312,eat someone's words,To admit that your were mistaken in what you said.,20,40,40
+314,himalayan blunder,To stupidly make a serious mistake or error.,0,100,0
+315,overshoot the mark,To make a mistake as a result of misjudging something.,0,100,0
+316,see the error of someone's ways,To understand that what they have done wrong and accept to change their behaviour.,80,20,0
+318,swallow someone's words,To admit that you were wrong.,40,40,20
+319,trial and error,Attempting to achieve a satisfactory result by testing and eliminating various methods until the best one is found.,0,0,100
+320,wide of the mark,"When something is incorrect or inadequate, or it is not what was expected.",0,60,40
+321,black tie event,"A formal event at which men are required to wear a dinner jacket, or tuxedo, and a black bow tie.",0,0,100
+322,bow and scrape,To be excessively polite or servile.,40,0,60
+323,the done thing,The correct way to behave in a particular social situation.,40,0,60
+324,excuse someone's French,An apology for using crude or offensive language.,20,20,60
+326,gatecrash,To attend a private social event without being invited.,0,60,40
+327,watch someone's language,To warn someone to be careful what they say so as not to upset or offend anyone.,0,60,40
+328,mind someone's Ps and Qs,To advise someone to be careful about how they behave and what they say.,20,0,80
+329,overstep the mark,To go too far and upset someone by saying something or behaving in a way that is unacceptable.,0,100,0
+330,speak out of turn,To intervene at the wrong moment or they say something tactless or inappropriate.,0,100,0
+331,stand on ceremony,To behave in a very formal way.,20,0,80
+332,take French leave,To leave an official or social event without notifying the person who invited you.,0,80,20
+333,time-honoured practice,"A custom that is universally respected, or a traditional way of doing something.",20,0,80
+334,achilles heel,"A vulnerable area or a weak spot, in an otherwise strong situation, that could cause one's downfall or failure.",0,100,0
+335,alarm bells ringing,"To make someone begin to worry, because it shows that there may be a problem.",0,100,0
+336,asking for trouble,To behave so stupidly that he/she is likely to have problems.,0,100,0
+337,back to the wall,To be in serious difficulty.,0,100,0
+338,ball and chain,A burden or problem that ties you down and prevents you from doing what you want. It can also refer to one's spouse.,0,100,0
+339,bane of someone's life,The cause of your problems or your unhappiness.,0,100,0
+340,bite off more than someone can chew,"To try to do something that is too difficult for you, or more than you can manage.",0,100,0
+341,on the blink,To not work properly and needs servicing or repair.,0,60,40
+342,break the back of the beast,To succeed in overcoming a major difficulty.,100,0,0
+343,can of worms,"A situation that it is complicated, unpleasant and difficult to deal with.",0,100,0
+344,carry the can,"To accept blame or take responsibility for something that goes wrong, even if it is not your fault or only partly.",20,40,40
+345,catch 22,"A  frustrating situation where you cannot do one thing without doing a second, and you cannot do the second before doing the first.",0,100,0
+346,chill wind,To encounter the problems or trouble it causes.,0,100,0
+347,cloud on the horizon,"A problem or difficulty that is predictable, or seems likely to arise in the future.",0,80,20
+348,come to a head,A situation reaches a point where action has to be taken.,0,60,40
+349,come hell or high water,To do something in spite of the difficulties involved.,60,0,40
+350,come out in the wash,To tell someone not to worry about a mistake or problem because it won't have any serious effect and everything will work out all right.,100,0,0
+351,cross to bear,To have a serious problem or heavy responsibility that they must accept because they cannot change it.,0,100,0
+352,cross that bridge when we come to it,This is another way of saying we will deal with that problem when it occurs and not worry about it before.,40,20,40
+353,crux of the matter,The most vital or main part of a problem.,20,0,80
+354,dead man walking,"Someone who will inevitably be in great trouble very soon, especially a person who is about to lose their job or position.",0,100,0
+355,dodge a bullet,To narrowly avoid a very serious problem or a disaster.,60,20,20
+356,elephant in the room,"A problem that no one wants to discuss, but is so abvious that it cannot be ignored.",0,100,0
+357,fat hits the fire,"When trouble breaks out, or a situation deteriorates as a result of something said or done.",0,100,0
+358,get to the bottom of,You solve it by finding out the true cause of it.,40,0,60
+359,go haywire,Where a situation becomes disorganized or goes out of control.,0,100,0
+360,go pear-shaped,Where a plan either goes wrong or it produces an undesirable result.,0,100,0
+361,go through the mill,"You experience a very difficult period, or are exposed to rough treatment.",0,100,0
+362,when the going gets tough,"When faced with a difficult or dangerous situation, strong people take action in order to solve the problem.",40,0,60
+363,grasp at straws,"To try any method, even if it has little chance of success, in an attempt to find a solution.",40,60,0
+364,hang out to dry,"If you abandon someone who is in difficulty, without giving any assistance or support.",0,100,0
+365,high and dry,To find yourself in a difficult situation without help or resources.,0,100,0
+366,in dire straits,To be in a very difficult situation.,0,100,0
+367,in the lurch,To be in a difficult or embarrassing situation.,0,100,0
+368,in over someone's head,To be involved in something that is too difficult for you to handle.,0,100,0
+369,juggle frogs,Trying to deal with many different tasks at the tame time and finding the situation difficult.,0,100,0
+370,last resort,The last thing you would do if you were desperate and all other courses of action had failed.,0,60,40
+371,see light at end of tunnel,To see signs of hope for the future after a long period of difficulty.,100,0,0
+372,millstone around someone's neck,A problem or responsibility that becomes a burden and a source of worry.,0,100,0
+373,be murder,Something very difficult or uncomfortable.,0,100,0
+374,necessary evil,To not like something but you understand that it has to exist and be accepted.,40,60,0
+375,one's number is up,"Either a person is in serious difficulty and something bad is going to happen, or the time has come when they will die.",0,100,0
+376,ostrich strategy/politics,To choose to ignore or evade an obvious problem in the hope that it will resolve itself or disappear.,20,80,0
+377,out of sync,To not be coordinated and are not taking place at the same time or at the same speed.,0,60,40
+378,out of whack,Something which does not work properly or is not in good order.,0,100,0
+379,paper over the cracks,To conceal a problem rather than dealing with it effectively.,0,100,0
+380,pass the buck,To accuse someone of not taking responsibility for a problem and letting others deal with it instead.,0,80,20
+381,in a pickle,To be in a difficult situation and need help.,0,100,0
+382,quick fix,There is no simple solution.,0,40,60
+383,put on a brave face,"When confronted with difficulties, you try to look cheerful and pretend that the situation is not as bad as it is.",60,20,20
+384,saved by the bell,When something happens at the last minute to rescue you from a difficult situation.,100,0,0
+385,scratch the surface,To deal with only a small part of a problem.,0,40,60
+386,where the shoe pinches,An area that is often a source of problems or difficulties.,0,100,0
+387,put a spanner in the works,To cause problems and prevent something from happening as planned.,0,100,0
+388,spell trouble,To signify possible problems in the future.,0,100,0
+389,spiral out of control,"A situation which gets worse or increase continuously, creating a situation that becomes difficult to manage.",0,100,0
+390,on a sticky wicket,To find yourself in a situation that is difficult to deal with.,0,100,0
+391,stir up a hornet's nest,To do something which causes a commotion and provokes criticism and anger.,0,100,0
+392,stop the rot,"When you prevent a situation from deteriorating, especially in business or politics.",80,0,20
+393,stumbling block,A problem or obstacle that prevents you from achieving something.,0,100,0
+394,take the bull by the horns,When a person decides to act decisively in order to deal with a difficult situation or problem.,80,0,20
+395,take the easy way out,"To choose the easiest way to deal with a difficult situation, even if it is not the best solution.",20,40,40
+396,tar baby,A sticky situation or problem for which it is virtually impossible to find a solution.,0,100,0
+397,teething problems,The difficulties encountered during the initial stage of an activity or project.,0,100,0
+398,thorny issue,To deal with a difficult or unpleasant problem.,0,100,0
+399,throw money at,"To try to solve a problem by spending money on it, without using any other methods.",0,20,80
+400,throw it over the wall,"To deal with part of a problem or project, then pass the responsibility to another person or department without any communication or coordination.",0,80,20
+401,tide over,To support someone through a difficult period for a certain length of time.,60,0,40
+402,tight spot,To be in a very difficult situation.,0,100,0
+403,tip of the iceberg,The part that is known of a problem or situation which is thought to be much more serious.,0,80,20
+404,trilemma,"A situation which is even more difficult than a dilemma, because a choice must be made between three options that seem equally undesirable.",0,100,0
+405,twist in the wind,To be left to face a difficult situation without any assistance or support.,0,100,0
+406,unmitigated disaster,A complete failure or a total catastrophe.,0,100,0
+407,uphill battle,A struggle against very unfavourable circumstances.,0,100,0
+408,vicious circle,"When the solution to a problem creates another problem similar to the original, or makes it worse, so that the process starts all over again.",0,100,0
+409,wave a dead chicken,"When faced with a serious problem, if you take steps that you  know in advance will be futile, to show that you made an effort.",60,20,20
+410,wheels fall off,When a situation gets out of control and everything starts to go wrong.,0,100,0
+411,without a hitch,"When something takes place exactly as planned, without any difficulties.",100,0,0
+412,work cut out for someone,If you have to face a difficult task or a challenging situation.,0,80,20
+413,yoke around neck,"An obligation, commitment or restraint that becomes an oppressive burden.",0,100,0
+414,batten down the hatches,"To prepare yourself for danger or a forthcoming difficult period, like a ship preparing for a storm.",40,20,40
+415,calculated risk,A risk taken with full knowledge of the dangers involved.,40,0,60
+416,throw caution to the wind,To start taking risks and stop worrying about the danger involved.,60,0,40
+417,close shave,A situation where an accident or a disaster nearly happened.,20,40,40
+418,coast is clear,There is no danger in sight or that nobody can see you.,60,0,40
+419,cry wolf,To call for help when you are not really in danger.,0,60,40
+420,dice with death,If you put your life at risk by doing something very dangerous.,0,100,0
+421,dicey situation,Any situation that is potentially risky or dangerous.,0,100,0
+422,false move,To do something which may have unpleasant consequences.,0,100,0
+423,fraught with danger,An activity or situation that is fraught with danger is full of risks or serious difficulties.,0,80,20
+424,by a hair's breadth,To only just manage escape from a danger.,40,0,60
+425,hang on for dear life,To be in a dangerous situation and grip something firmly so as not to fall.,0,80,20
+426,live to tell the tale,To survive a terrible experience.,60,20,20
+427,look before you leap,This is something you say when advising someone to think carefully about the possible dangers before doing something.,20,20,60
+428,no-go area,An area where it is dangerous to go.,0,80,20
+429,out of harm's way,To put something in a safe place where it won't be damaged.,60,20,20
+430,play with fire,People who take unnecessary risks or behave in a dangerous way.,0,80,20
+431,put someone's head on the block,If you put yourself in a dangerous situation where you risk losing your job or your reputation if things go wrong.,20,60,20
+432,ride it out,"If you manage to survive a dangerous or very unpleasant situation, like a ship sailing through a storm.",80,0,20
+433,risk life and limb,To be in danger of death or serious injury.,0,60,40
+434,in safe hands,"When something is being looked after by a reliable person or organization, and is therefore at no risk.",100,0,0
+435,on the safe side,"To do something as a precaution, to avoid any risks.",60,0,40
+436,safety in numbers,When being part of a group makes people feel more secure and more confident when taking action.,80,0,20
+437,sail close to the wind,To do something dangerous or act just within the limits of what is legal or acceptable.,0,40,60
+438,save someone's neck,To manage to escape from serious danger or trouble.,80,0,20
+439,at stake,"Someone who has a lot at stake is in a risky situation, with a lot to be won or lost.",0,60,40
+440,take cover,"To hide from a danger, or bad weather, in a place where they find protection.",0,60,40
+441,take life in someone's own hands,To take the risk of being killed.,60,0,40
+442,watch someone's step,To advise someone to be careful how they behave in order to avoid danger.,0,40,60
+443,wrapped up in cotton wool,To be over-protected from dangers and risks.,20,40,40
+444,asleep at the wheel,"When someone is not sufficiently attentive, especially at a critical moment when vigilance is required.",0,80,20
+445,cat nap,To have a short sleep during the day.,20,0,80
+446,forty winks,"To have a short sleep or rest, generally during the day.",20,20,60
+447,hit the hay,To go to bed.,20,0,80
+448,hit the sack,To go to bed.,0,0,100
+449,lie in,To stay in bed after the normal time for getting up.,20,0,80
+450,out like a light,To be so tired that you fall asleep very quickly.,20,0,80
+451,ready to drop,To be extremely tired and nearly too exhausted to stay standing.,0,80,20
+452,sleep like a log,To sleep deeply or soundly.,60,0,40
+453,sleep on it,To take time (until the next day) to think something over before making a decision.,20,20,60
+454,not sleep a wink,To not sleep a all.,0,40,60
+455,not lose any sleep,When something happens that in your opinion is not a cause for worry.,60,0,40
+456,sleeping partner,"A person who invests in a business without taking an active part in its management, and whose association with the enterprise is not public knowledge.",0,0,100
+457,ace a test,To obtain a very high score or an excellent result.,100,0,0
+458,have an ace up someone's sleeve,To have something in reserve with which you can gain an advantage and obtain success.,100,0,0
+459,hold all the aces,To be in a very strong position because they have more advantages than anyone else.,100,0,0
+460,also-ran,An unsuccessful competitor whose performance is so much poorer than the winner's that it appears insignificant.,0,100,0
+461,back to square one,"To not succeeded in what they were trying to do, so they have to start again.",0,100,0
+462,in the bag,When it becomes obvious that success or victory is going to be achieved.,100,0,0
+463,bear fruit,To produces positive or successful results.,100,0,0
+464,up a blind alley,To follow an ineffective course of action which leads nowhere or produces no results.,0,80,20
+465,blockbuster,"Something that is outstanding, impressive or particularly successful, such as a film or a book.",100,0,0
+466,blow up in face,"When working on a plan or project, if it suddenly goes wrong or fails.",0,100,0
+467,bottom fell out,"When something causes a plan, project or venture to collapse or fail.",0,100,0
+468,bring the house down,To give a very successful performance.,100,0,0
+469,cake not worth the candle,The advantages to be gained from doing something are not worth the effort involved.,0,80,20
+470,chance your arm,To decide to do something even though there is little hope of success.,60,0,40
+471,had your chips,When someone has completely failed in what they set out to achieve.,0,100,0
+472,close but no cigar,An effort to do something which was a good attempt but not quite good enough to succeed.,0,40,60
+473,come to grief,"When someone has either had an accident, are destroyed or end in failure.",0,100,0
+474,come up in the world,A person who is richer than before and has a higher social status.,100,0,0
+475,come up roses,"The end result is successful or positive, even if there were difficult times.",80,0,20
+476,turn up trumps,To have achieved unexpectedly good results.,100,0,0
+477,cook someone's goose,To spoil that person's chances of success.,0,100,0
+478,on course for,"If you are on course for something, you are likely to achieve it.",80,0,20
+479,crest of the wave,To be very successful in what you are doing.,100,0,0
+480,cut someone's losses,"If you end or withdraw from something that is already failing, in order to reduce the loss of money, time or effort invested in it, you cut your losses.",20,40,40
+481,cut someone's own throat,To do something that will be the cause of your own failure or ruin your chances in the future.,0,100,0
+482,dead cert,Something that is certain to happen or be achieved.,60,0,40
+483,dead duck,A project or scheme which has been abandoned or is certain to fail.,0,100,0
+484,dead in the water,A plan at a standstill or has ceased to function and is unlikely to be reactivated in the future.,0,80,20
+485,dice are loaded,"If everything seems to work to your disadvantage, and you are not likely to succeed.",0,100,0
+486,disaster written all over,"If something, such as a plan or idea, is thought to be heading for complete failure, or will cause a lot of trouble.",0,100,0
+487,all downhill,"If something is all downhill or downhill all the way, it is very easy to achieve considering the difficulties encountered beforehand.",60,20,20
+488,draw a blank,"If you look for or try to remember something, and draw a blank, you fail to find it.",0,80,20
+489,every dog has its day,Where everyone can be successful at something at some time in their life.,80,0,20
+490,fall at first hurdle,To fail to overcome the first difficulty encountered.,0,100,0
+491,fall flat,"Fails to amuse people, or fails to have the effect that was intended.",0,100,0
+492,fall from grace,"To have done something wrong, immoral or unacceptable, and as a result  have lost their good reputation.",0,100,0
+493,fall on someone's sword,To accept the consequences of an unsuccessful or wrong action.,20,60,20
+494,feather in someone's cap,Proud of something.,100,0,0
+495,fight a losing battle,Trying to do something even when there is little chance of succeeding.,20,80,0
+496,reach first base,To make progress or begin to have success with someone or something.,100,0,0
+497,flash in the pan,Something that it is not likely to be repeated.,0,20,80
+498,will never fly,To be unsuccessful.,0,100,0
+499,with flying colours,To do something very successfully.,100,0,0
+500,flying start,Something immediately becomes successful.,100,0,0
+501,fool's errand,"To try to do something which is useless, unnecessary or has no chance of success.",0,100,0
+502,foot in the door,When someone has a small but successful start in something and will possibly do well in the future.,100,0,0
+503,get a foothold,"To secure a position for yourself in a business, profession or organisation.",100,0,0
+504,front runner,"In a contest, race or election, the front runner is the person who is most likely to succeed or win.",80,0,20
+505,get the better of someone,If someone or something gets the better of you.,0,100,0
+506,go to the dogs,"To say that a company, organization or country is going to the dogs means that it is becoming less successful or efficient than before.",0,100,0
+507,go great guns,To be successful or doing very well.,100,0,0
+508,go off with a bang,To be very successful.,100,0,0
+509,go up in smoke,A plan which fails or ends before producing a result.,0,100,0
+510,got it made,Someone who has got it made is so happy and successful in life that they have no worries.,100,0,0
+511,hit pay dirt,"If you hit pay dirt, you are lucky and suddenly find yourself in a successful money-making situation.",100,0,0
+512,on its knees,"When something such as a country or organization is on its knees, or brought to its knees, it is in a very weak situation or on the verge of failure.",0,100,0
+513,landslide victory,The victory of a candidate or a political party by an overwhelming majority is called a landslide victory.,100,0,0
+514,lead to a dead end,"If a plan or project leads to a dead end, it develops no further because it has no future.",0,80,20
+515,leaps and bounds,To make rapid or spectacular progress or growth.,100,0,0
+516,let slip through fingers,To fail to obtain something or keep it.,0,100,0
+517,live to fight another day,"Even though you have not been successful, you will have another chance in the future to try again.",100,0,0
+518,come a long way,To have made a lot of progress or have become successful.,100,0,0
+519,at a low ebb,A person or organization at a low ebb is not as strong or successful as usual.,0,100,0
+520,make a comeback,To succeed in returning to their former successful career.,100,0,0
+521,make the cut,To reach a required standard or succeed in passing from one round of a competition to another.,80,0,20
+522,make a go of,To succeed in your enterprise or produce good results.,100,0,0
+523,make headway,To make progress in what you are trying to achieve.,100,0,0
+524,make inroads,To advance successfully or make progress.,100,0,0
+525,make a killing,To have had great financial success.,100,0,0
+526,make or break,Circumstances or events that will make or break someone or something will cause either total success or total ruin.,0,20,80
+527,make a pig's ear of,To do a task or a chore very badly or make a complete mess of it.,0,100,0
+528,miss the boat,To fail to take advantage of an opportunity because you don't act quickly enough.,0,100,0
+529,moment of truth,"A critical or decisive time when you face the reality of a situation, and find out if your efforts have succeeded.",0,40,60
+530,move up in the world,To become more important in society or successful in their career.,100,0,0
+531,murphy's law,"To express a sentiment of bad luck and the idea that if anything can go wrong, it will.",0,100,0
+532,not getting anywhere,To make no progress at all.,0,80,20
+533,nothing succeeds like success,The success often leads to further successes.,80,0,20
+534,"nothing ventured, nothing gained",You cannot expect to achieve anything if you risk nothing.,20,0,80
+535,out of the picture,When people have been eliminated in a contest or tournament.,0,40,60
+536,ahead of the pack,When someone is better or more successful than their rivals.,100,0,0
+537,pack it in,To abandon it or give it up.,0,100,0
+538,pass muster,To be satisfactory or acceptable.,80,0,20
+539,on the pig's back,A successful situation and everything is going well for that person.,100,0,0
+540,place in the sun,"To reach a position which provides you with success, wealth and/or happiness, or whatever you have been hoping to obtain in life.",100,0,0
+541,put the kibosh on,If you do something to prevent a plan or activity from happening or being successful.,0,100,0
+542,pyrrhic victory,"A victory that is obtained at a tremendous cost, or causes such a great loss that it is not worth winning.",0,80,20
+543,rags to riches,When someone starts off being very poor and become very rich and successful.,100,0,0
+544,riding high,Someone who is enjoying a period of success or popularity.,100,0,0
+545,rise to the occasion,To manage to do something successfully in difficult circumstances.,100,0,0
+546,run rings around,To show much more skill or ability than your opponent.,20,20,60
+547,sail through,To succeed in doing it without difficulty.,100,0,0
+548,save the day,"If you find a solution to a serious problem, and ensure the success of something that was expected to fail.",100,0,0
+549,sink or swim,"Having to do something alone, and their success or failure depends entirely on their own efforts.",0,0,100
+550,sky's the limit,There is no limit to the possibility of success or progress for someone or something.,100,0,0
+551,smash hit,"A very successful performance in music, films, theatre, etc.",100,0,0
+552,snatch victory from the jaws of defeat,"If you manage to win something such as a match or a contest, when you are on the verge of losing.",100,0,0
+553,spread oneself too thin,Doing too many things at the same time and can't do any of them well.,0,100,0
+554,throw a spanner in the works,To do something that causes problems and prevents the success of a plan or event.,0,100,0
+555,throw in the towel,To admit that you cannot succeed.,0,100,0
+556,top dog,When someone is more successful or more powerful than others.,100,0,0
+557,on the up and up,To become increasingly successful.,100,0,0
+558,weather the storm,To succeed in surviving a difficult period or situation.,100,0,0
+559,win-win,A situation or proposition where both or all parties benefit from the outcome.,100,0,0
+560,wither on the vine,Failing or ceases to exist because people do not support or encourage it.,0,100,0
+561,wooden spoon,The person who finishes last in a race or competition receives an imaginary prize.,0,60,40
+562,have the world at someone's feet,To be extremely successful and greatly admired.,100,0,0
+563,have the world by its tail,To be very successful and has many opportunities to choose from.,100,0,0
+564,bolt from the blue,When something happened totally unexpectedly and was a complete surprise.,0,0,100
+565,out of the blue,When something happened unexpectedly and causes a surprise.,0,0,100
+566,caught unaware,To be surprised and unprepared for what happens.,0,40,60
+567,do a double take,To look again in surprise at something unexpected.,0,20,80
+568,drop a bombshell,To make an unexpected announcement which will greatly change a situation.,0,0,100
+569,eyes on stalks,When your eyes are wide open with surprise or amazement.,0,0,100
+570,jaw drop,To show total amazement.,20,0,80
+571,jump out of someone's skin,To be extremely surprised or shocked.,0,60,40
+572,knock someone's socks off,"If something amazes you, or impresses you greatly.",100,0,0
+573,knock down with feather,To emphasize the fact that you were extremely surprised.,0,20,80
+574,lo and behold,"To express surprise, especially at a sudden or unexpected appearance.",0,0,100
+575,nine-day wonder,"An event which is a nine-day wonder causes interest, surprise or excitement for a short time, but it doesn't last.",20,20,60
+576,raise eyebrows,To show surprise or disapproval  by the expression on their face.,0,60,40
+577,rooted to the spot,"If you are so shocked, surprised or scared, your reaction is so strong that you are unable to move.",0,40,60
+578,seeing is believing,"When you see something that seems incredible you can be sure it exists, or that what you have been told is really true.",20,0,80
+579,stop dead in someone's tracks,To stop suddenly because you are totally surprised or frightened.,0,60,40
+580,struck dumb,"To be unable to speak because you're are so surprised, shocked or frightened by something.",0,20,80
+581,taken unaware,To be suprised because you were not expecting it.,0,40,60
+582,there's no accounting for taste,To indicate surprise at another person's likes or dislikes.,0,80,20
+583,wonders will never cease,To express pleasure or surprise at something.,80,0,20
+584,words fail me,"When someone is so shocked, surprised or touched by something that they don't know what to say.",0,0,100
+585,bandit territory,"A geographical area where law enforcement is practically impossible, because people ignore all rule.",0,80,20
+586,beat black and blue,If a person is covered with bruise marks caused by being hit.,0,100,0
+588,beat the living daylights,To hit someone very hard and repeatedly.,0,100,0
+589,come to blows,To start to fight.,0,100,0
+590,fight tooth and nail,To fight with energy and determination.,40,0,60
+592,free-for-all,This term refers to an uncontrolled situation such as an argument or fight where everyone present can do what they like.,0,40,60
+595,tit for tat,This expression refers to an injury or insult given in return for one received.,0,60,40
+597,through the wars,"To show signs of rough treatment, injury or damage.",0,100,0
+599,in the good books,To have someone's approval.,100,0,0

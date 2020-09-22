@@ -1,0 +1,2483 @@
+// --- PRONOUNS ---
+
+defDict subjectPRN = I, you, he, she, it, they, we;
+defDict possessivePRN = my, mine, our, ours, its, his, her, hers, their, theirs, your, yours;
+defDict objectPRN = me, you, him, her, it, us, them;
+defDict reflexivePRN = myself, yourself, himself, herself, itself, ourselves, yourselves, themselves;
+
+// --- MODAL VERBS ---
+
+defDict be = be, are, am, was, were, been, is, being, aren, wasn, weren, isn;
+defDict have = have, had, has, having, haven, hadn, hasn;
+defDict can = can, cannot, could, couldn;
+defDict might = might, mightn;
+defDict may = may;
+defDict must = must, musts, mustn;
+defDict shall = shall, shan;
+defDict should = should, shouldn;
+defDict will = will, won;
+defDict would = would, wouldn;
+
+// --- VERB NEGATION ---
+
+defSpanType not =:
+... [ eqi('not') ] ... ||
+... [ eqi('\'') eqi('t') ] ... ;
+
+defSpanType be =:
+... [ ai(be) ] ... ||
+... [ eqi('\'') eqi('s') ] ... ||
+... [ eqi('\'') eqi('re') ] ... ;
+
+// --- IRREGULAR VERBS ---
+
+defDict bite = bite, bit, bitten, bites, biting;
+defDict blow = blow, blew, blown, blows, blowing;
+defDict break = break, broke, broken, breaks, breaking;
+defDict carry = carry, carrying, carried, carries;
+defDict come = come, came, coming, comes;
+defDict champ = champ, champing, chomped;
+defDict cry = cry, cried, crying, cries;
+defDict draw = draw, drew, drawn, draws, drawing;
+defDict drive = drive, drove, driven, drives, driving;
+defDict eat = eat, eating, ate, eaten, eats;
+defDict fall = fall, falling, falls, fell;
+defDict fight = fight, fought, fights, fighting;
+defDict fly = fly, flying, flew, flies;
+defDict fling = fling, flinging, flinged, flung, flungs;
+defDict get = get, got, gotten, gets, getting;
+defDict go = go, went, gone, goes, going;
+defDict give = give, giving, gave, given, gives;
+defDict hang = hang, hanging, hangs, hanged, hung;
+defDict hold = hold, holding, held, holds;
+defDict keep = keep, kept, keeping, keeps;
+defDict lead = lead, led, leads, leading;
+defDict lose = lose, lost, losing, loses;
+defDict make = make, made, makes, making;
+defDict overshoot = overshoot, overshot, overshooting, overshoots;
+defDict ride = ride, rides, riding, rode;
+defDict run = run, running, ran, runs;
+defDict see = see, saw, seeing, seen, sees;
+defDict send = send, sent, sends, sending;
+defDict shake = shake, shaking, shook, shakes, shaken;
+defDict sink = sink, sank, sunk, sinks, sinking;
+defDict sit = sit, sat, sits, sitting;
+defDict sleep = sleep, sleeping, sleeps, slept;
+defDict speak = speak, speaking, speaks, spoke;
+defDict stand = stand, standing, stands, stood;
+defDict take = take, took, taken, takes, taking;
+defDict tear = tear, tore, torn, tearing;
+defDict tell = tell, told, telling, tells;
+defDict think = think, thinking, thinks, thought;
+defDict throw = throw, threw, thrown, throws, throwing;
+defDict try = try, tried, tries, trying;
+defDict wear = wear, wearing, wore, wears;
+defDict strike = strike, struck, stricken, strikes, striking;
+defDict bear = bear, bore, born, borne, bears, bearing;
+defDict bring = bring, brought, brings, bringing;
+defDict rise = rise, rose, risen, rises, rising;
+
+// --- IDIOMS ---
+
+defSpanType idiom_01 =:
+... [ eqi('a') eqi('moot') eqi('point') ] ... ;
+
+defSpanType idiom_02 =:
+... [ eqi('nothing') eqi('doing') ] ... ;
+
+defSpanType idiom_03 =:
+... [ eqi('at') eqi('odds') ] ... ;
+
+defSpanType idiom_04 =:
+... [ eqi('olive') re('^branch') ] ... ;
+
+defSpanType idiom_05 =:
+... [ eqi('out') eqi('of') eqi('the') eqi('question') ] ... ;
+
+defSpanType idiom_06 =:
+... [ eqi('over') ai(possessivePRN) eqi('dead') eqi('body') ] ... ;
+
+defSpanType idiom_07 =:
+... [ re('^[P|p]ick') eqi('a') eqi('fight') ] ... ;
+
+defSpanType idiom_08 =:
+... [ re('^[P|p]ick') eqi('holes') ] ... ||
+... [ re('^[P|p]ick') eqi('a') eqi('hole') ] ... ;
+
+defSpanType idiom_09 =:
+... [ re('^[P|p]ress') eqi('it') eqi('home') ] ... ||
+... [ re('^[P|p]ress') eqi('that') eqi('home') ] ... ;
+
+defSpanType idiom_10 =:
+... [ eqi('running') eqi('battle') ] ... ;
+
+defSpanType idiom_11 =:
+... [ ai(send) any{1,3} eqi('packing') ] ... ;
+
+defSpanType idiom_12 =:
+... [ eqi('shouting') eqi('match') ] ... ;
+
+defSpanType idiom_13 =:
+... [ ai(sink) ai(possessivePRN) eqi('differences') ] ... ;
+
+defSpanType idiom_14 =:
+... [ ai(sit) eqi('on') eqi('the') eqi('fence') ] ... ;
+
+defSpanType idiom_15 =:
+... [ re('^[S|s]kat') eqi('on') eqi('thin') eqi('ice') ] ... ;
+
+defSpanType idiom_16 =:
+... [ re('^[S|s]plit') eqi('hairs') ] ... ;
+
+defSpanType idiom_17 =:
+... [ eqi('water') eqi('under') eqi('the') eqi('bridge') ] ... ;
+
+defSpanType idiom_18 =:
+... [ re('^[W|w]ip') eqi('the') eqi('slate') eqi('clean') ] ... ;
+
+defSpanType idiom_19 =:
+... [ eqi('cat') eqi('and') eqi('dog') eqi('life') ] ... ;
+
+defSpanType idiom_20 =:
+... [ eqi('caught') eqi('in') eqi('the') eqi('crossfire') ] ... ;
+
+defSpanType idiom_21 =:
+... [ re('^[C|c]lear') eqi('the') eqi('air') ] ... ;
+
+defSpanType idiom_22 =:
+... [ eqi('dead') eqi('set') eqi('against') ] ... ;
+
+defSpanType idiom_23 =:
+... [ eqi('devil') eqi('\'') eqi('s') eqi('advocate') ] ... ;
+
+defSpanType idiom_24 =:
+... [ ai(fight) eqi('like') eqi('cat') eqi('and') eqi('dog') ] ... ;
+
+defSpanType idiom_25 =:
+... [ ai(go) eqi('against') eqi('the') eqi('tide') ] ... ||
+... [ ai(go) eqi('against') eqi('the') eqi('stream') ] ... ;
+
+defSpanType idiom_26 =:
+... [ eqi('hammer') eqi('and') eqi('tongs') ] ... ;
+
+defSpanType idiom_27 =:
+... [ eqi('let') eqi('bygones') eqi('be') eqi('bygones') ] ... ;
+
+defSpanType idiom_28 =:
+... [ re('^let') eqi('sleeping') eqi('dogs') eqi('lie') ] ... ;
+
+defSpanType idiom_29 =:
+... [ eqi('at') eqi('loggerheads') ] ... ;
+
+defSpanType idiom_30 =:
+... [ re('^[L|l]ock') eqi('horns') ] ... ;
+
+defSpanType idiom_31 =:
+... [ eqi('no') eqi('love') eqi('lost') ] ... ;
+
+defSpanType idiom_32 =:
+... [ ai(make) eqi('a')? re('^mountain') eqi('out') eqi('of') eqi('a') eqi('molehill') ] ... ;
+
+defSpanType idiom_33 =:
+... [ eqi('much') eqi('ado') eqi('about') eqi('nothing') ] ... ;
+
+defSpanType idiom_34 =:
+... [ re('^[A|a]rgu') eqi('the') eqi('toss') ] ... ;
+
+defSpanType idiom_35 =:
+... [ eqi('all') eqi('hell') any? ai(break) eqi('loose') ] ... ;
+
+defSpanType idiom_36 =:
+... [ eqi('battle') eqi('lines') any? ai(be) eqi('drawn') ] ... ;
+
+defSpanType idiom_37 =:
+... [ eqi('battle') eqi('of') eqi('wills') ] ... ;
+
+defSpanType idiom_38 =:
+... [ eqi('blamestorming') ] ... ;
+
+defSpanType idiom_39 =:
+... [ eqi('bone') eqi('of') eqi('contention') ] ... ;
+
+defSpanType idiom_40 =:
+... [ eqi('bone') eqi('to') eqi('pick') ] ... ;
+
+defSpanType idiom_41 =:
+... [ eqi('in') any eqi('bad') eqi('books') ] ... ;
+
+defSpanType idiom_42 =:
+... [ re('^[B|b]ur') eqi('the') eqi('hatchet') ] ... ;
+
+defSpanType idiom_43 =:
+... [ re('^[C|c]all') ai(possessivePRN)? eqi('bluff') ] ... ;
+
+defSpanType idiom_44 =:
+... [ eqi('up') eqi('in') eqi('arms') ] ... ;
+
+defSpanType idiom_45 =:
+... [ ai(get) eqi('off') ai(possessivePRN) eqi('back') ] ... ;
+
+defSpanType idiom_46 =:
+... [ eqi('bear') eqi('with') eqi('a') eqi('sore') eqi('head') ] ... ;
+
+defSpanType idiom_47 =:
+... [ ai(bite) any{1,3} eqi('head') eqi('off') ] ... ;
+
+defSpanType idiom_48 =:
+... [ eqi('black') eqi('mood') ] ... ;
+
+defSpanType idiom_49 =:
+... [ ai(blow) eqi('a') eqi('fuse') ] ... ;
+
+defSpanType idiom_50 =:
+... [ ai(blow) eqi('a') eqi('gasket') ] ... ;
+
+defSpanType idiom_51 =:
+... [ ai(blow) any{1,3} eqi('top') ] ... ;
+
+defSpanType idiom_53 =:
+... [ eqi('cheesed') eqi('off') ] ... ;
+
+defSpanType idiom_54 =:
+... [ ai(come) eqi('down') eqi('like') eqi('a') eqi('ton') eqi('of') eqi('bricks') ] ... ;
+
+defSpanType idiom_55 =:
+... [ eqi('for') eqi('crying') eqi('out') eqi('loud') ] ... ;
+
+defSpanType idiom_56 =:
+... [ eqi('cut') eqi('it') eqi('out') ] ... ;
+
+defSpanType idiom_57 =:
+... [ ai(drive) any{0,3} eqi('up') eqi('the') eqi('wall') ] ... ;
+
+defSpanType idiom_58 =:
+... [ ai(eat) any{1,3} eqi('alive') ] ... ;
+
+defSpanType idiom_59 =:
+... [ eqi('fit') eqi('to') eqi('be') eqi('tied') ] ... ;
+
+defSpanType idiom_60 =:
+... [ ai(get) eqi('the')? eqi('flak') ] ... ||
+... [ ai(take) eqi('the')? eqi('flak') ] ... ;
+
+defSpanType idiom_61 =:
+... [ eqi('lea') eqi('in') ai(possessivePRN) re('^ear') ] ... ;
+
+defSpanType idiom_62 =:
+... [ ai(fly) eqi('off') eqi('the') eqi('handle') ] ... ;
+
+defSpanType idiom_63 =:
+... [ eqi('foam') eqi('at') eqi('the') eqi('mouth') ] ... ;
+
+defSpanType idiom_64 =:
+... [ ai(get) ai(possessivePRN) eqi('goat') ] ... ;
+
+defSpanType idiom_65 =:
+... [ ai(get)  ai(possessivePRN) eqi('knickers') eqi('in') eqi('a') eqi('twist') ] ... ;
+
+defSpanType idiom_66 =:
+... [ ai(get) eqi('a') eqi('rise') eqi('out') eqi('of') ] ... ;
+
+defSpanType idiom_67 =:
+... [ ai(get) eqi('in') any{1,3}  eqi('hair') ] ... ;
+
+defSpanType idiom_68 =:
+... [ ai(get) eqi('on') any{1,3} eqi('nerves') ] ... ;
+
+defSpanType idiom_69 =:
+... [ ai(give) eqi('it') eqi('a') eqi('rest') ] ... ;
+
+defSpanType idiom_70 =:
+... [ ai(give) eqi('a') eqi('piece') eqi('of') ai(possessivePRN) eqi('mind') ] ... ;
+
+defSpanType idiom_71 =:
+... [ ai(give) eqi('the') eqi('edge') eqi('of') ai(possessivePRN) eqi('tongue') ] ... ;
+
+defSpanType idiom_72 =:
+... [ ai(give) eqi('a') eqi('tongue') eqi('lashing') ] ... ;
+
+defSpanType idiom_73 =:
+... [ eqi('gloves') ai(be) eqi('off') ] ... ;
+
+defSpanType idiom_74 =:
+... [ ai(go) eqi('ballistic') ] ... ;
+
+defSpanType idiom_75 =:
+... [ ai(go) eqi('off') eqi('the') eqi('deep') eqi('end') ] ... ;
+
+defSpanType idiom_76 =:
+... [ ai(go) eqi('postal') ] ... ;
+
+defSpanType idiom_77 =:
+... [ ai(go) eqi('spare') ] ... ;
+
+defSpanType idiom_78 =:
+... [ ai(go) eqi('through') eqi('the') eqi('roof') ] ... ;
+
+defSpanType idiom_79 =:
+... [ eqi('good') eqi('riddance') ] ... ;
+
+defSpanType idiom_80 =:
+... [ re('^[H|h]arp') eqi('on') ] ... ;
+
+defSpanType idiom_81 =:
+... [ re('^[H|h]aul') any? eqi('over') eqi('the') eqi('coals') ] ... ;
+
+defSpanType idiom_82 =:
+... [ eqi('hot') eqi('under') eqi('the') eqi('collar') ] ... ;
+
+defSpanType idiom_83 =:
+... [ re('^[J|j]ump') eqi('down') any{1,3} eqi('throat') ] ... ;
+
+defSpanType idiom_85 =:
+... [ re('^[K|k]ick') ai(reflexivePRN) ] ... ;
+
+defSpanType idiom_86 =:
+... [ eqi('like') eqi('a') eqi('red') eqi('flag') eqi('to') eqi('a') eqi('bull') ] ... ;
+
+defSpanType idiom_87 =:
+... [ re('^[L|l]ook') eqi('daggers') eqi('at') ] ... ;
+
+defSpanType idiom_88 =:
+... [ ai(make) any{1,3} eqi('hackles') eqi('rise') ] ... ;
+
+defSpanType idiom_89 =:
+... [ ai(make) eqi('a') eqi('song') eqi('and') eqi('dance') ] ... ;
+
+defSpanType idiom_90 =:
+... [ re('^[M|m]ind') ai(possessivePRN) eqi('own')? eqi('business') ] ... ;
+
+defSpanType idiom_91 =:
+... [ eqi('more') eqi('heat') eqi('than') eqi('light') ] ... ;
+
+defSpanType idiom_92 =:
+... [ eqi('quick') eqi('-')? re('^temper') ] ... ;
+
+defSpanType idiom_93 =:
+... [ re('^[R|r]ant') eqi('and') re('^rav') ] ... ;
+
+defSpanType idiom_94 =:
+... [ re('^[R|r]ap') any? eqi('on') any eqi('knuckles') ] ... ;
+
+defSpanType idiom_95 =:
+... [ eqi('road') eqi('rage') ] ... ;
+
+defSpanType idiom_96 =:
+... [ re('^[S|s]cream') eqi('blue') eqi('murder') ] ... ;
+
+defSpanType idiom_97 =:
+... [ ai(see) eqi('red') ] ... ;
+
+defSpanType idiom_98 =:
+... [ eqi('short') eqi('-')? re('^fuse') ] ... ;
+
+defSpanType idiom_99 =:
+... [ re('^[S|s]kin') any{1,3} eqi('alive') ] ... ;
+
+defSpanType idiom_100 =:
+... [ re('^[S|s]mooth') any{1,3} eqi('ruffled') eqi('feathers') ] ... ;
+
+defSpanType idiom_101 =:
+... [ eqi('steamed') eqi('up') ] ... ;
+
+defSpanType idiom_102 =:
+... [ re('^step') eqi('on') any{1,3} eqi('toes') ] ... ;
+
+defSpanType idiom_103 =:
+... [ eqi('stick') eqi('in') any{1,3} eqi('throat') ] ... ;
+
+defSpanType idiom_104 =:
+... [ eqi('a') eqi('storm') any{1,3} eqi('brewing') ] ... ;
+
+defSpanType idiom_105 =:
+... [ ai(tear) eqi('a') eqi('strip') eqi('off') ] ... ;
+
+defSpanType idiom_106 =:
+... [ ai(tell) eqi('a') eqi('thing') eqi('or') eqi('two') ] ... ;
+
+defSpanType idiom_107 =:
+... [ ai(make) any eqi('blood') eqi('boil') ] ... ;
+
+defSpanType idiom_108 =:
+... [ ai(go) eqi('too') eqi('far') ] ... ;
+
+defSpanType idiom_109 =:
+... [ ai(take) eqi('the') eqi('biscuit') ] ... ;
+
+defSpanType idiom_110 =:
+... [ eqi('the') eqi('last') eqi('straw') ] ... ;
+
+defSpanType idiom_111 =:
+... [ ai(throw) eqi('a') re('^wobbl') ] ... ;
+
+defSpanType idiom_113 =:
+... [ ai(try) any{1,3} eqi('patience') ] ... ;
+
+defSpanType idiom_114 =:
+... [ re('^[V|v]ent') ai(possessivePRN) eqi('spleen') ] ... ;
+
+defSpanType idiom_115 =:
+... [ re('^[W|w]ant') any{1,3} eqi('head') eqi('on') eqi('a') eqi('platter') ] ... ;
+
+defSpanType idiom_116 =:
+... [ eqi('afraid') eqi('of') ai(possessivePRN) eqi('own')? eqi('shadow') ] ... ;
+
+defSpanType idiom_117 =:
+... [ eqi('bated') eqi('breath') ] ... ;
+
+defSpanType idiom_118 =:
+... [ ai(make) ai(possessivePRN) eqi('blood') eqi('run') eqi('cold') ] ... ;
+
+defSpanType idiom_119 =:
+... [ ai('break') eqi('out') eqi('in') eqi('a') eqi('cold') eqi('sweat') ] ... ;
+
+defSpanType idiom_120 =:
+... [ eqi('bundle') eqi('of') eqi('nerves') ] ... ;
+
+defSpanType idiom_121 =:
+... [ eqi('butterflies') eqi('in') ai(possessivePRN)? eqi('stomach') ] ... ;
+
+defSpanType idiom_122 =:
+... [ ai(can) @not? eqi('stand') eqi('the') eqi('pace') ] ... ;
+
+defSpanType idiom_123 =:
+... [ eqi('cat') eqi('on') eqi('hot') eqi('bricks') ] ... ;
+
+defSpanType idiom_124 =:
+... [ eqi('on') eqi('the') eqi('edge') eqi('of') any? re('^seat') ] ... ;
+
+defSpanType idiom_125 =:
+... [ ai(get) ai(possessivePRN) eqi('fingers') re('^burn') ] ... ||
+... [ re('^burn') ai(possessivePRN) eqi('fingers') ] ... ;
+
+defSpanType idiom_126 =:
+... [ eqi('heart') eqi('in') ai(possessivePRN) eqi('mouth') ] ... ;
+
+defSpanType idiom_127 =:
+... [ eqi('heart') any? re('^miss') any{1,2} re('^beat') ] ... ;
+
+defSpanType idiom_128 =:
+... [ eqi('heebie') eqi ('jeebies') ] ... ;
+
+defSpanType idiom_129 =:
+... [ ai(hold) ai(possessivePRN) eqi('breath') ] ... ;
+
+defSpanType idiom_130 =:
+... [ eqi('if') ai(subjectPRN) ai(can) @not?  eqi('stand') eqi('the') eqi('heat') eqi('get') eqi('out') eqi('of') eqi('the') eqi('kitchen') ] ... ;
+
+defSpanType idiom_131 =:
+... [ eqi('ignorance') any{1,3} eqi('bliss') ] ... ;
+
+defSpanType idiom_132 =:
+... [ ai(get) eqi('the') eqi('jitters') ] ... ||
+... [ ai(have) any{0,3} eqi('the') eqi('jitters') ] ... ;
+
+defSpanType idiom_133 =:
+... [ ai(have) any{0,3} eqi('kittens') ] ... ;
+
+defSpanType idiom_134 =:
+... [ eqi('nerves') eqi('of') eqi('steel') ] ... ;
+
+defSpanType idiom_135 =:
+... [ eqi('pins') eqi('and') eqi('needles') ] ... ;
+
+defSpanType idiom_136 =:
+... [ eqi('quaking') eqi('in') ai(possessivePRN) eqi('boots') ] ... ;
+
+defSpanType idiom_137 =:
+... [ re('^[S|s]care') eqi('out') eqi('of') ai(possessivePRN) eqi('wits') ] ... ;
+
+defSpanType idiom_138 =:
+... [ re('^[S|s]care') eqi('the') eqi('daylights') eqi('out') eqi('of') ] ... ;
+
+defSpanType idiom_139 =:
+... [ eqi('scared') eqi('stiff') ] ... ;
+
+defSpanType idiom_140 =:
+... [ ai(shake) eqi('like') eqi('a') eqi('leaf') ] ... ;
+
+defSpanType idiom_141 =:
+... [ eqi('on') eqi('tenterhooks') ] ... ;
+
+defSpanType idiom_142 =:
+... [ eqi('tongue') eqi('-')? eqi('tied') ] ... ;
+
+defSpanType idiom_143 =:
+... [ re('^[W|w]histl') eqi('in') eqi('the') eqi('dark') ] ... ;
+
+defSpanType idiom_144 =:
+... [ eqi('at') ai(possessivePRN) eqi('wits') eqi('end') ] ... ;
+
+defSpanType idiom_145 =:
+... [ eqi('ants') eqi('in') ai(possessivePRN) eqi('pants') ] ... ;
+
+defSpanType idiom_146 =:
+... [ ai(champ) eqi('at') eqi('the') eqi('bit') ] ... ;
+
+defSpanType idiom_147 =:
+... [ re('^[D|d]ial') eqi('it') eqi('back') ] ... ;
+
+defSpanType idiom_148 =:
+... [ eqi('bright') eqi('-')? eqi('eyed') eqi('and') eqi('bushy') eqi('-')? eqi('tailed') ] ... ;
+
+defSpanType idiom_149 =:
+... [ re('^[C|c]aus') eqi('a') eqi('stir') ] ... ;
+
+defSpanType idiom_150 =:
+... [ eqi('do') eqi('nothing') eqi('by') eqi('halves') ] ... ;
+
+defSpanType idiom_151 =:
+... [ eqi('eager') eqi('-')? eqi('beaver') ] ... ;
+
+defSpanType idiom_152 =:
+... [ eqi('eat') eqi(',') eqi('sleep') eqi(',')? eqi('and') eqi('breathe') ] ... ;
+
+defSpanType idiom_154 =:
+... [ eqi('fever') eqi('pitch') ] ... ;
+
+defSpanType idiom_155 =:
+... [ ai(fling) ai(reflexivePRN) eqi('into') ] ... ;
+
+defSpanType idiom_156 =:
+... [ ai(go) eqi('the') eqi('extra') eqi('mile') ] ... ;
+
+defSpanType idiom_157 =:
+... [ eqi('hold') ai(possessivePRN) eqi('horses') ] ... ;
+
+defSpanType idiom_158 =:
+... [ re('^[L|l]ick') ai(possessivePRN) eqi('lips') ] ... ;
+
+defSpanType idiom_159 =:
+... [ re('^[P|p]ut') ai(possessivePRN) eqi('heart') eqi('into') ] ... ;
+
+defSpanType idiom_160 =:
+... [ eqi('raring') eqi('to') eqi('go') ] ... ;
+
+defSpanType idiom_161 =:
+... [ re('^[B|b]ar') ai(possessivePRN) eqi('heart') eqi('and') eqi('soul') ] ... ||
+... [ re('^[B|b]ar') ai(possessivePRN) eqi('heart') ] ... ||
+... [ re('^[B|b]ar') ai(possessivePRN) eqi('soul') ] ... ;
+
+defSpanType idiom_162 =:
+... [ ai(bear) eqi('the') eqi('brunt') ] ... ;
+
+defSpanType idiom_163 =:
+... [ eqi('bent') ai(subjectPRN)? eqi('out') eqi('of') eqi('shape') ] ... ;
+
+defSpanType idiom_164 =: 
+... [ eqi('beside') ai(reflexivePRN) ] ... ;
+
+defSpanType idiom_165 =:
+... [ re('^[B|b]or') ai(subjectPRN)? eqi('to') eqi('tears') ] ... ||
+... [ re('^[B|b]or') ai(subjectPRN)? eqi('to') eqi('death') ] ... ;
+
+defSpanType idiom_166 =:
+... [ ai(carry) eqi('the') eqi('torch') eqi('for') ] ... ;
+
+defSpanType idiom_167 =:
+... [ ai(would) @not eqi('be') eqi('caught') eqi('dead') ] ... ||
+... [ ai(would) @not eqi('seen') eqi('dead') ] ... ;
+
+defSpanType idiom_168 =:
+... [ eqi('chip') eqi('on') ai(possessivePRN) eqi('shoulder') ] ... ;
+
+defSpanType idiom_169 =:
+... [ eqi('close') eqi('to') eqi('home') ] ... ;
+
+defSpanType idiom_170 =:
+... [ ai(come) eqi('apart') eqi('at') eqi('the') eqi('seams') ] ... ;
+
+defSpanType idiom_171 =:
+... [ re('^[C|c]ork') eqi('up') ] ... ;
+
+defSpanType idiom_172 =:
+... [ re('^[C|c]ut') eqi('to') eqi('the') eqi('quick') ] ... ;
+
+defSpanType idiom_173 =:
+... [ eqi('deep') eqi('down') ] ... ;
+
+defSpanType idiom_174 =:
+... [ eqi('fish') eqi('out') eqi('of') eqi('water') ] ... ;
+
+defSpanType idiom_175 =:
+... [ eqi('fit') eqi('of') eqi('pique') ] ... ; 
+
+defSpanType idiom_176 =:
+... [ eqi('Freudian') eqi('slip') ] ... ;
+
+defSpanType idiom_177 =:
+... [ ai(possessivePRN) eqi('heart') @be any{0,2} eqi('in') eqi('the') eqi('right') eqi('place') ] ... ;
+
+defSpanType idiom_178 =:
+... [ ai(get) eqi('a') eqi('grip') eqi('on') ai(reflexivePRN) ] ... ;
+
+defSpanType idiom_179 =:
+... [ ai(get) eqi('it') eqi('out') eqi('of') ai(possessivePRN) eqi('system') ] ... ;
+
+defSpanType idiom_180 =:
+... [ ai(get) eqi('worked') eqi('up') ] ... ;
+
+defSpanType idiom_181 =:
+... [ ai(go) eqi('to') eqi('pieces') ] ... ;
+
+defSpanType idiom_182 =:
+... [ re('^[G|g]roan') eqi('inwardly') ] ... ;
+
+defSpanType idiom_183 =:
+... [ eqi('guilty') re('^pleasure') ] ... ;
+
+defSpanType idiom_184 =:
+... [ eqi('hard') eqi('as') eqi('nails') ] ... ;
+
+defSpanType idiom_185 =:
+... [ eqi('head') eqi('over') eqi('heels') eqi('in') eqi('love') ] ... ;
+
+defSpanType idiom_186 =:
+... [ eqi('change') eqi('of') eqi('heart') ] ... ;
+
+defSpanType idiom_187 =: 
+... [ eqi('give') eqi('a') eqi('hoot') ] ... ;
+
+defSpanType idiom_188 =:
+... [ ai(keep) eqi('a') eqi('stiff') eqi('upper') eqi('lip') ] ... ;
+
+defSpanType idiom_189 =:
+... [ re('^[L|l]ick') ai(possessivePRN) eqi('wounds') ] ... ;
+
+defSpanType idiom_190 =:
+... [ re('^[L|l]ook') eqi('on') eqi('the') eqi('bright') eqi('side') ] ... ;
+
+defSpanType idiom_191 =:
+... [ eqi('love') eqi('me') eqi('love') eqi('my') eqi('dog') ] ... ;
+
+defSpanType idiom_192 =:
+... [ eqi('lump') eqi('in') ai(possessivePRN) eqi('throat') ] ... ||
+... [ eqi('lump') eqi('to') ai(possessivePRN) eqi('throat') ] ... ;
+
+defSpanType idiom_193 =:
+... [ ai(make) ai(possessivePRN) eqi('ears') eqi('burn') ] ... ;
+
+defSpanType idiom_194 =:
+... [ ai(make) ai(possessivePRN) eqi('flesh') eqi('crawl') ] ... ;
+
+defSpanType idiom_195 =:
+... [ eqi('mixed') eqi('feelings') ] ... ;
+
+defSpanType idiom_196 =:
+... [ eqi('no') eqi('hard') eqi('feelings') ] ... ;
+
+defSpanType idiom_197 =:
+... [ eqi('give') eqi('a') eqi('hang') ] ... ;
+
+defSpanType idiom_198 =:
+... [ @not eqi('turn') eqi('a') eqi('hair') ] ... ;
+
+defSpanType idiom_199 =:
+... [ eqi('nose') eqi('out') eqi('of') eqi('joint') ] ... ;
+
+defSpanType idiom_200 =:
+... [ re('^[O|o]pen') eqi('old') eqi('wounds') ] ... ;
+
+defSpanType idiom_201 =:
+... [ re('^[P|p]our') ai(possessivePRN) eqi('heart') eqi('out') ] ... ;
+
+defSpanType idiom_202 =:
+... [ eqi('proud') eqi('as') eqi('a') eqi('peacock') ] ... ;
+
+defSpanType idiom_203 =:
+... [ eqi('pleased') eqi('as') eqi('punch') ] ... ;
+
+defSpanType idiom_204 =:
+... [ re('^[P|p]ut') ai(possessivePRN) eqi('foot') eqi('in') ai(possessivePRN) eqi('mouth') ] ... ;
+
+defSpanType idiom_205 =:
+... [ re('^[R|r]educe') eqi('to') eqi('tears') ] ... ;
+
+defSpanType idiom_206 =:
+... [ re('^[R|r]egain') ai(possessivePRN) eqi('composure') ] ... ;
+
+defSpanType idiom_207 =:
+... [ re('^[S|s]ave') eqi('face') ] ... ;
+
+defSpanType idiom_208 =:
+... [ eqi('a') eqi('soft') eqi('spot') ] ... ;
+
+defSpanType idiom_209 =:
+... [ ai(speak) eqi('volumes') ] ... ;
+
+defSpanType idiom_210 =:
+... [ re('^[L|l]et') eqi('off') eqi('steam') ] ... ;
+
+defSpanType idiom_212 =:
+... [ eqi('in') eqi('a') eqi('stew') ] ... ;
+
+defSpanType idiom_213 =:
+... [ eqi('a') eqi('stitherum') ] ... ;
+
+defSpanType idiom_214 =:
+... [ ai(strike) eqi('a') eqi('raw')? eqi('nerve') ] ... ;
+
+defSpanType idiom_215 =:
+... [ re('^[S|s]wallow') ai(possessivePRN) eqi('pride') ] ... ;
+
+defSpanType idiom_216 =:
+... [ eqi('sweet') eqi('nothings') ] ... ;
+
+defSpanType idiom_217 =:
+... [ ai(take) eqi('a') eqi('fancy') ] ... ;
+
+defSpanType idiom_218 =:
+... [ ai(take) eqi('a') eqi('load') eqi('off') ai(possessivePRN) eqi('mind') ] ... ||
+... [ ai(take) eqi('a') eqi('weight') eqi('off') ai(possessivePRN) eqi('mind') ] ... ;
+
+defSpanType idiom_219 =:
+... [ ai(tear) ai(possessivePRN) eqi('hair') eqi('out') ] ... ;
+
+defSpanType idiom_220 =:
+... [ ai(wear) ai(possessivePRN) eqi('heart') eqi('on') ai(possessivePRN) eqi('sleeve') ] ... ;
+
+defSpanType idiom_221 =:
+... [ re('^[W|w]ish') eqi('the') eqi('ground') eqi('would') eqi('swallow') ai(objectPRN) eqi('up') ] ... ;
+
+defSpanType idiom_223 =:
+... [ re('^[T|t]hank') ai(possessivePRN) eqi('lucky') eqi('stars') ] ... ;
+
+defSpanType idiom_224 =:
+... [ ai(think) eqi('the') eqi('sun') eqi('rises') eqi('and') eqi('sets') eqi('on') ai(objectPRN) ] ... ;
+
+defSpanType idiom_225 =:
+... [ ai(think) eqi('the') eqi('world') eqi('of') ] ... ;
+
+defSpanType idiom_226 =:
+... [ eqi('thinly') eqi('veiled') ] ... ;
+
+defSpanType idiom_227 =:
+... [ re('^[T|t]ug') eqi('at') eqi('the') eqi('heartstrings') ] ... ;
+
+defSpanType idiom_228 =:
+... [ eqi('weak') eqi('at') eqi('the') eqi('knees') ] ... ;
+
+defSpanType idiom_229 =:
+... [ re('^[M|m]ean') eqi('the') eqi('world') eqi('to') ai(objectPRN) ] ... ;
+
+defSpanType idiom_230 =:
+... [ eqi('written') eqi('all') eqi('over') ai(possessivePRN) eqi('face') ] ... ;
+
+defSpanType idiom_231 =:
+... [ eqi('with') eqi('bells') eqi('on') ] ... ;
+
+defSpanType idiom_232 =:
+... [ ai(blow) eqi('away') eqi('the') eqi('cobwebs') ] ... ;
+
+defSpanType idiom_233 =:
+... [ re('^[C|c]hill') eqi('out') ] ... ;
+
+defSpanType idiom_234 =:
+... [ eqi('in') ai(possessivePRN) eqi('element') ] ... ;
+
+defSpanType idiom_235 =:
+... [ eqi('feast') ai(possessivePRN) eqi('eyes') eqi('on') ] ... ;
+
+defSpanType idiom_236 =:
+... [ eqi('footloose') eqi('and') eqi('fancy') eqi('free') ] ... ||
+... [ eqi('foot') eqi('-')? eqi('loose') eqi('and') eqi('fancy') eqi('-')? eqi('free') ] ... ;
+
+defSpanType idiom_237 =:
+... [ eqi('in') eqi('full') eqi('swing') ] ... ;
+
+defSpanType idiom_238 =:
+... [ eqi('full') eqi('of') eqi('the') eqi('joys') eqi('of') eqi('spring') ] ... ;
+
+defSpanType idiom_240 =:
+... [ ai(have) eqi('a') eqi('ball') ] ... ;
+
+defSpanType idiom_241 =:
+... [ ai(have) eqi('the') eqi('time') eqi('of') ai(possessivePRN) eqi('life') ] ... ;
+
+defSpanType idiom_242 =:
+... [ ai(have) eqi('a') eqi('whale') eqi('of') eqi('a') eqi('time') ] ... ;
+
+defSpanType idiom_243 =:
+... [ re('^[L|l]et') ai(possessivePRN) eqi('hair') eqi('down') ] ... ;
+
+defSpanType idiom_244 =:
+... [ eqi('life') eqi('and') eqi('soul') eqi('of') eqi('the') eqi('party') ] ... ;
+
+defSpanType idiom_245 =:
+... [ re('^[L|l]iv') eqi('the') eqi('life') eqi('of') eqi('riley') ] ... ;
+
+defSpanType idiom_246 =:
+... [ eqi('more') eqi('fun') eqi('than') eqi('a') eqi('barrel') eqi('of') eqi('monkeys') ] ... ;
+
+defSpanType idiom_247 =:
+... [ re('^[P|p]aint') eqi('the') eqi('town') eqi('red') ] ... ;
+
+defSpanType idiom_248 =:
+... [ eqi('party') @be any{0,2} eqi('over') ] ... ;
+
+defSpanType idiom_249 =:
+... [ re('^[P|p]ull') ai(possessivePRN) eqi('leg') ] ... ;
+
+defSpanType idiom_250 =:
+... [ re('^[P|p]ull') eqi('the') eqi('other') eqi('one') ] ... ;
+
+defSpanType idiom_251 =:
+... [ eqi('punch') eqi('line') ] ... ;
+
+defSpanType idiom_252 =:
+... [ eqi('ring') eqi('out') eqi('the') eqi('old') eqi('year') eqi('and') eqi('ring') eqi('in') eqi('the') eqi('new') ] ... ;
+
+defSpanType idiom_253 =:
+... [ eqi('social') eqi('butterfly') ] ... ;
+
+defSpanType idiom_254 =:
+... [ re('^[S|s]ow') ai(possessivePRN) eqi('wild') eqi('oats') ] ... ;
+
+defSpanType idiom_255 =:
+... [ ai(take) eqi('it') eqi('easy') ] ... ;
+
+defSpanType idiom_256 =:
+... [ re('^[T|t]ickl') eqi('the') eqi('ivories') ] ... ;
+
+defSpanType idiom_257 =:
+... [ eqi('wet') eqi('the') eqi('baby') eqi('\'') eqi('s') eqi('head') ] ... ;
+
+defSpanType idiom_258 =:
+... [ eqi('the') eqi('world') eqi('is') ai(possessivePRN) eqi('oyster') ] ... ;
+
+defSpanType idiom_259 =:
+... [ eqi('on') eqi('cloud') eqi('nine') ] ... ||
+... [ eqi('on') eqi('cloud') eqi('9') ]... ;
+
+defSpanType idiom_260 =:
+... [ ai(cry) ai(possessivePRN) eqi('eyes') eqi('out') ] ... ;
+
+defSpanType idiom_261 =:
+... [ eqi('like') eqi('a') eqi('dog') eqi('with') eqi('two') eqi('tails') ] ... ;
+
+defSpanType idiom_262 =:
+... [ eqi('down') eqi('in') eqi('the') eqi('dumps') ] ... ;
+
+defSpanType idiom_263 =:
+... [ eqi('down') eqi('in') eqi('the') eqi('mouth') ] ... ;
+
+defSpanType idiom_264 =:
+... [ eqi('face') eqi('like') eqi('a') eqi('wet') eqi('weekend') ] ... ;
+
+defSpanType idiom_265 =:
+... [ eqi('fool') eqi('\'') eqi('s') eqi('paradise') ] ... ||
+... [ eqi('fools') eqi('\'')? eqi('paradise') ] ... ;
+
+defSpanType idiom_267 =:
+... [ re('^[G|g]rin') eqi('from') eqi('ear') eqi('to') eqi('ear') ] ... ;
+
+defSpanType idiom_268 =:
+... [ re('^[G|g]rin') eqi('like') eqi('a') eqi('cheshire') eqi('cat') ] ... ;
+
+defSpanType idiom_269 =:
+... [ eqi('happy') eqi('camper') ] ... ;
+
+defSpanType idiom_270 =:
+... [ eqi('happy') eqi('as') eqi('a') eqi('flea') eqi('in') eqi('a') eqi('doghouse') ] ... ;
+
+defSpanType idiom_271 =:
+... [ eqi('happy') eqi('as') eqi('Larry') ] ... ;
+
+defSpanType idiom_272 =:
+... [ eqi('happy') eqi('go') eqi('lucky') ] ... ;
+
+defSpanType idiom_273 =:
+... [ ai(possessivePRN) eqi('heart') ai(sink) ] ... ;
+
+defSpanType idiom_274 =:
+... [ re('^[J|j]ump') eqi('for') eqi('joy') ] ... ;
+
+defSpanType idiom_275 =:
+... [ eqi('life') @be any{0,2} eqi('just') eqi('a') eqi('bowl') eqi('of') eqi('cherries') ] ... ;
+
+defSpanType idiom_276 =:
+... [ eqi('music') eqi('to') ai(possessivePRN) eqi('ears') ] ... ;
+
+defSpanType idiom_277 =:
+... [ eqi('never') re('^look') eqi('back') ] ... ;
+
+defSpanType idiom_278 =:
+... [ eqi('over') eqi('the') eqi('moon') ] ... ;
+
+defSpanType idiom_280 =:
+... [ eqi('in') eqi('raptures') ] ... ;
+
+defSpanType idiom_281 =:
+... [ eqi('stars') eqi('in') ai(possessivePRN) eqi('eyes') ] ... ;
+
+defSpanType idiom_282 =:
+... [ eqi('in') eqi('seventh') eqi('heaven') ] ... ||
+... [ eqi('in') eqi('7') eqi('th') eqi('heaven') ] ... ;
+
+defSpanType idiom_283 =:
+... [ eqi('in') eqi('stitches') ] ... ;
+
+defSpanType idiom_284 =:
+... [ eqi('thrilled') eqi('to') eqi('bits') ] ... ;
+
+defSpanType idiom_285 =:
+... [ eqi('tickled') eqi('pink') ] ... ;
+
+defSpanType idiom_287 =:
+... [ eqi('on') eqi('top') eqi('of') eqi('the') eqi('world') ] ... ;
+
+defSpanType idiom_288 =:
+... [ eqi('walking') eqi('on') eqi('air') ] ... ;
+
+defSpanType idiom_289 =:
+... [ eqi('whatever') re('^float') ai(possessivePRN) eqi('boat') ] ... ;
+
+defSpanType idiom_290 =:
+... [ eqi('away') eqi('with') eqi('the') eqi('fairies') ] ... ;
+
+defSpanType idiom_291 =:
+... [ ai(go) eqi('bananas') ] ... ;
+
+defSpanType idiom_292 =:
+... [ eqi('basket') eqi('case') ] ... ;
+
+defSpanType idiom_293 =:
+... [ eqi('bats') eqi('in') eqi('the') eqi('belfry') ] ... ;
+
+defSpanType idiom_294 =:
+... [ ai(go) eqi('out') eqi('of') ai(possessivePRN) eqi('mind') ] ... ;
+
+defSpanType idiom_295 =:
+... [ eqi('harebrained') re('^idea') ] ... ;
+
+defSpanType idiom_296 =:
+... [ eqi('the') eqi('lights') ai(be) eqi('on') eqi('but') any{0,3} eqi('no') eqi('one') any{1,2} eqi('home') ] ... ||
+... [ eqi('the') eqi('lights') ai(be) eqi('on') eqi('but') any{0,3} eqi('nobody') any{1,2} eqi('home') ] ... ;
+
+defSpanType idiom_297 =:
+... [ ai(lose) ai(possessivePRN) eqi('marbles') ] ... ;
+
+defSpanType idiom_298 =:
+... [ @not eqi('all') eqi('there') ] ... ;
+
+defSpanType idiom_299 =:
+... [ @not eqi('in') ai(possessivePRN) eqi('right') eqi('mind') ] ... ;
+
+defSpanType idiom_300 =:
+... [ @not eqi('playing') eqi('with') eqi('a') eqi('full') eqi('deck') eqi('of') eqi('cards') ] ... ;
+
+defSpanType idiom_301 =:
+... [ ai(go) eqi('nuts') ] ... ;
+
+defSpanType idiom_302 =:
+... [ eqi('off') ai(possessivePRN) eqi('rocker') ] ... ;
+
+defSpanType idiom_303 =:
+... [ eqi('rats') eqi('in') eqi('the') eqi('attic') ] ... ;
+
+defSpanType idiom_304 =:
+... [ eqi('screw') eqi('loose') ] ... ;
+
+defSpanType idiom_305 =:
+... [ eqi('stark') eqi('raving') eqi('mad') ] ... ;
+
+defSpanType idiom_306 =:
+... [ eqi('stir') eqi('crazy') ] ... ;
+
+defSpanType idiom_307 =:
+... [ ai(take) eqi('leave') eqi('of') ai(possessivePRN) eqi('senses') ] ... ;
+
+defSpanType idiom_308 =:
+... [ re('^[B|b]ack') eqi('the') eqi('wrong') eqi('horse') ] ... ;
+
+defSpanType idiom_309 =:
+... [ re('^[B|b]ark') eqi('up') eqi('the') eqi('wrong') eqi('tree') ] ... ;
+
+defSpanType idiom_310 =:
+... [ re('^[B|b]otch') eqi('up') ] ... ||
+... [ ai(make) eqi('a') eqi('botch') eqi('of') ] ... ;
+
+defSpanType idiom_311 =:
+... [ ai(eat) eqi('crow') ] ... ||
+... [ ai(eat) eqi('a')? eqi('humble') eqi('pie') ] ... ;
+
+defSpanType idiom_312 =:
+... [ ai(eat) ai(possessivePRN) eqi('words') ] ... ;
+
+defSpanType idiom_314 =:
+... [ eqi('Himalayan') eqi('blunder') ] ... ;
+
+defSpanType idiom_315 =:
+... [ ai(overshoot) eqi('the') eqi('mark') ] ... ;
+
+defSpanType idiom_316 =:
+... [ ai(see) eqi('the') eqi('error') eqi('of') ai(possessivePRN) eqi('ways') ] ... ;
+
+defSpanType idiom_318 =:
+... [ re('^[S|s]wallow') ai(possessivePRN) eqi('words') ] ... ;
+
+defSpanType idiom_319 =:
+... [ eqi('trial') eqi('and') eqi('error') ] ... ;
+
+defSpanType idiom_320 =:
+... [ eqi('wide') eqi('of') eqi('the') eqi('mark') ] ... ||
+... [ eqi('wide') eqi('off') eqi('the') eqi('mark') ] ... ;
+
+defSpanType idiom_321 =:
+... [ eqi('black') eqi('tie') eqi('event') ] ... ;
+
+defSpanType idiom_322 =:
+... [ re('^[B|b]ow') eqi('and') re('^scrap') ] ... ;
+
+defSpanType idiom_323 =:
+... [ eqi('the') eqi('done') eqi('thing') ] ... ;
+
+defSpanType idiom_324 =:
+... [ re('^[E|e]xcuse') ai(possessivePRN) eqi('French') ] ... ||
+... [ re('^[P|p]ardon') ai(possessivePRN) eqi('French') ] ... ;
+
+defSpanType idiom_326 =:
+... [ eqi('gatecrash') ] ... ;
+
+defSpanType idiom_327 =:
+... [ re('^[W|w]atch') ai(possessivePRN) eqi('language') ] ... ;
+
+defSpanType idiom_328 =:
+... [ re('^[M|m]ind') ai(possessivePRN) eqi('P') eqi('\'') eqi('s') eqi('and') eqi('Q') eqi('\'') eqi('s') ] ... ||
+... [ re('^[M|m]ind') ai(possessivePRN) eqi('Ps') eqi('and') eqi('Qs') ] ... ;
+
+defSpanType idiom_329 =:
+... [ re('^[O|o]verstep') eqi('the') eqi('mark') ] ... ;
+
+defSpanType idiom_330 =:
+... [ ai(speak) eqi('out') eqi('of') eqi('turn') ] ... ;
+
+defSpanType idiom_331 =:
+... [ ai(stand) eqi('on') eqi('ceremony') ] ... ;
+
+defSpanType idiom_332 =:
+... [ ai(take) eqi('French') eqi('leave') ] ... ;
+
+defSpanType idiom_333 =:
+... [ eqi('time') eqi('honoured') eqi('practice') ] ... ;
+
+defSpanType idiom_334 =:
+... [ eqi('Achilles') eqi('\'')? eqi('heel') ] ... ;
+
+defSpanType idiom_335 =:
+... [ eqi('alarm') eqi('bells') re('^ring') ] ... ;
+
+defSpanType idiom_336 =:
+... [ re('^[A|a]sk') eqi('for') eqi('trouble') ] ... ;
+
+defSpanType idiom_337 =:
+... [ eqi('back') eqi('to') eqi('the') eqi('wall') ] ... ;
+
+defSpanType idiom_338 =:
+... [ eqi('ball') eqi('and') eqi('chain') ] ... ;
+
+defSpanType idiom_339 =:
+... [ eqi('bane') eqi('of') ai(possessivePRN) eqi('life') ] ... ;
+
+defSpanType idiom_340 =:
+... [ ai(subjectPRN) re('^bit') eqi('off') eqi('more') eqi('than') ai(subjectPRN) ai(can) eqi('chew') ] ... ;
+
+defSpanType idiom_341 =:
+... [ eqi('on') eqi('the') eqi('blink') ] ... ;
+
+defSpanType idiom_342 =:
+... [ ai(break) eqi('the') eqi('back') eqi('of') eqi('the') eqi('beast') ] ... ;
+
+defSpanType idiom_343 =:
+... [ eqi('can') eqi('of') eqi('worms') ] ... ;
+
+defSpanType idiom_344 =:
+... [ ai(carry) eqi('the') eqi('can') ] ... ;
+
+defSpanType idiom_345 =:
+... [ eqi('catch') eqi('22') ] ... ||
+... [ eqi('catch') eqi('twenty') eqi('-')? eqi('two') ] ... ;
+
+defSpanType idiom_346 =:
+... [ eqi('chill') eqi('wind') ] ... ;
+
+defSpanType idiom_347 =:
+... [ eqi('cloud') eqi('on') eqi('the') eqi('horizon') ] ... ;
+
+defSpanType idiom_348 =:
+... [ ai(come) eqi('to') eqi('a') eqi('head') ] ... ;
+
+defSpanType idiom_349 =:
+... [ ai(come) eqi('hell') eqi('or') eqi('high') eqi('water') ] ... ;
+
+defSpanType idiom_350 =:
+... [ ai(come) eqi('out') eqi('in') eqi('the') eqi('wash') ] ... ;
+
+defSpanType idiom_351 =:
+... [ eqi('cross') eqi('to') eqi('bear') ] ... ;
+
+defSpanType idiom_352 =:
+... [ re('^[C|c]ross') eqi('that') eqi('bridge') eqi('when') ai(subjectPRN) eqi('come') eqi('to') eqi('it') ] ... ;
+
+defSpanType idiom_353 =:
+... [ eqi('crux') eqi('of') eqi('the') eqi('matter') ] ... ;
+
+defSpanType idiom_354 =:
+... [ eqi('dead') eqi('man') eqi('walking') ] ... ;
+
+defSpanType idiom_355 =:
+... [ re('^[D|d]odg') eqi('a') eqi('bullet') ] ... ;
+
+defSpanType idiom_356 =:
+... [ eqi('elephant') eqi('in') eqi('the') eqi('room') ] ... ;
+
+defSpanType idiom_357 =:
+... [ eqi('fat') eqi('has')? eqi('hit') eqi('the') eqi('fire') ] ... ;
+
+defSpanType idiom_358 =:
+... [ ai(get) eqi('to') eqi('the') eqi('bottom') eqi('of') ] ... ;
+
+defSpanType idiom_359 =:
+... [ ai(go) eqi('haywire') ] ... ;
+
+defSpanType idiom_360 =:
+... [ ai(go) eqi('pear') eqi('-')? eqi('shaped') ] ... ;
+
+defSpanType idiom_361 =:
+... [ ai(go) eqi('through') eqi('the') eqi('mill') ] ... ;
+
+defSpanType idiom_362 =:
+... [ eqi('when') eqi('the') eqi('going') eqi('gets') eqi('tough') ] ... ;
+
+defSpanType idiom_363 =:
+... [ re('^[G|g]rasp') eqi('at') eqi('straws') ] ... ;
+
+defSpanType idiom_364 =:
+... [ ai(hang) eqi('out') eqi('to') eqi('dry') ] ... ;
+
+defSpanType idiom_365 =:
+... [ eqi('high') eqi('and') eqi('dry') ] ... ;
+
+defSpanType idiom_366 =:
+... [ eqi('in') eqi('dire') eqi('straits') ] ... ;
+
+defSpanType idiom_367 =:
+... [ eqi('in') eqi('the') eqi('lurch') ] ... ;
+
+defSpanType idiom_368 =:
+... [ eqi('in') eqi('over') ai(possessivePRN) eqi('head') ] ... ;
+
+defSpanType idiom_369 =:
+... [ re('^[J|j]uggl') eqi('frogs') ] ... ;
+
+defSpanType idiom_370 =:
+... [ eqi('last') eqi('resort') ] ... ;
+
+defSpanType idiom_371 =:
+... [ ai(see) eqi('the')? eqi('light') eqi('at') eqi('the') eqi('end') eqi('of') eqi('the')? eqi('tunnel') ] ... ;
+
+defSpanType idiom_372 =:
+... [ eqi('millstone') eqi('around') ai(possessivePRN) eqi('neck') ] ... ;
+
+defSpanType idiom_373 =:
+... [ @be eqi('murder') ] ... ;
+
+defSpanType idiom_374 =:
+... [ eqi('necessary') eqi('evil') ] ... ;
+
+defSpanType idiom_375 =:
+... [ ai(possessivePRN) eqi('number') @be any{0,2} eqi('up') ] ... ;
+
+defSpanType idiom_376 =:
+... [ eqi('ostrich') eqi('strategy') ] ... ||
+... [ eqi('ostrich') eqi('politics') ] ... ;
+
+defSpanType idiom_377 =:
+... [ eqi('out') eqi('of') eqi('sync') ] ... ;
+
+defSpanType idiom_378 =:
+... [ eqi('out') eqi('of') eqi('whack') ] ... ;
+
+defSpanType idiom_379 =:
+... [ re('^[P|p]aper') eqi('over') eqi('the') eqi('cracks') ] ... ;
+
+defSpanType idiom_380 =:
+... [ re('^[P|p]ass') eqi('the') eqi('buck') ] ... ;
+
+defSpanType idiom_381 =:
+... [ eqi('in') eqi('a') eqi('pickle') ] ... ;
+
+defSpanType idiom_382 =:
+... [ eqi('quick') eqi('fix') ] ... ;
+
+defSpanType idiom_383 =:
+... [ re('^[P|p]ut') eqi('on') eqi('a') eqi('brave') eqi('face') ] ... ;
+
+defSpanType idiom_384 =:
+... [ eqi('saved') eqi('by') eqi('the') eqi('bell') ] ... ;
+
+defSpanType idiom_385 =:
+... [ re('^[S|s]cratch') eqi('the') eqi('surface') ] ... ;
+
+defSpanType idiom_386 =:
+... [ eqi('where') eqi('the') eqi('shoe') eqi('pinches') ] ... ;
+
+defSpanType idiom_387 =:
+... [ re('^[P|p]ut') eqi('a') eqi('spanner') eqi('in') eqi('the') eqi('works') ] ... ;
+
+defSpanType idiom_388 =:
+... [ re('^[S|s]pell') eqi('trouble') ] ... ;
+
+defSpanType idiom_389 =:
+... [ re('^[S|s]piral') eqi('out') eqi('of') eqi('control') ] ... ;
+
+defSpanType idiom_390 =:
+... [ eqi('on') eqi('a') eqi('sticky') eqi('wicket') ] ... ;
+
+defSpanType idiom_391 =:
+... [ re('^[S|s]tir') eqi('up') eqi('a') eqi('hornets') eqi('nest') ] ... ;
+
+defSpanType idiom_392 =:
+... [ re('^[S|s]top') eqi('the') eqi('rot') ] ... ;
+
+defSpanType idiom_393 =:
+... [ eqi('stumbling') eqi('block') ] ... ;
+
+defSpanType idiom_394 =:
+... [ ai(take) eqi('the') eqi('bull') eqi('by') eqi('the') eqi('horns') ] ... ;
+
+defSpanType idiom_395 =:
+... [ ai(take) eqi('the') eqi('easy') eqi('way') eqi('out') ] ... ;
+
+defSpanType idiom_396 =:
+... [ eqi('tar') eqi('baby') ] ... ;
+
+defSpanType idiom_397 =:
+... [ eqi('teething') eqi('problems') ] ... ;
+
+defSpanType idiom_398 =:
+... [ eqi('thorny') eqi('issue') ] ... ;
+
+defSpanType idiom_399 =:
+... [ ai(throw) eqi('money') eqi('at') ] ... ;
+
+defSpanType idiom_400 =:
+... [ ai(throw) eqi('it') eqi('over') eqi('the') eqi('wall') ] ... ;
+
+defSpanType idiom_401 =:
+... [ eqi('tide') eqi('over') ] ... ;
+
+defSpanType idiom_402 =:
+... [ eqi('tight') eqi('spot') ] ... ;
+
+defSpanType idiom_403 =:
+... [ eqi('tip') eqi('of') eqi('the') eqi('iceberg') ] ... ;
+
+defSpanType idiom_404 =:
+... [ eqi('trilemma') ] ... ;
+
+defSpanType idiom_405 =:
+... [ re('^[T|t]wist') eqi('in') eqi('the') eqi('wind') ] ... ;
+
+defSpanType idiom_406 =:
+... [ eqi('unmitigated') eqi('disaster') ] ... ;
+
+defSpanType idiom_407 =:
+... [ eqi('uphill') eqi('battle') ] ... ;
+
+defSpanType idiom_408 =:
+... [ eqi('vicious') eqi('circle') ] ... ;
+
+defSpanType idiom_409 =:
+... [ re('^[W|w]av') eqi('a') eqi('dead') eqi('chicken') ] ... ;
+
+defSpanType idiom_410 =:
+... [ eqi('wheels') ai(fall) eqi('off') ] ... ;
+
+defSpanType idiom_411 =:
+... [ eqi('without') eqi('a') eqi('hitch') ] ... ;
+
+defSpanType idiom_412 =:
+... [ eqi('work') eqi('cut') eqi('out') eqi('for') ai(objectPRN) ] ... ;
+
+defSpanType idiom_413 =:
+... [ eqi('yoke') eqi('around') ai(possessivePRN) eqi('neck') ] ... ;
+
+defSpanType idiom_414 =:
+... [ re('^[B|b]atten') eqi('down') eqi('the') eqi('hatches') ] ... ;
+
+defSpanType idiom_415 =:
+... [ eqi('calculated') re('^risk') ] ... ;
+
+defSpanType idiom_416 =:
+... [ ai(throw) eqi('caution') eqi('to') eqi('the') eqi('wind') ] ... ;
+
+defSpanType idiom_417 =:
+... [ eqi('close') eqi('shave') ] ... ;
+
+defSpanType idiom_418 =:
+... [ eqi('coast') @be any{0,2} eqi('clear') ] ... ;
+
+defSpanType idiom_419 =:
+... [ ai(cry) eqi('wolf') ] ... ;
+
+defSpanType idiom_420 =:
+... [ re('^[D|d]ic') eqi('with') eqi('death') ] ... ;
+
+defSpanType idiom_421 =:
+... [ eqi('dicey') eqi('situation') ] ... ;
+
+defSpanType idiom_422 =:
+... [ eqi('false') eqi('move') ] ... ;
+
+defSpanType idiom_423 =:
+... [ eqi('fraught') eqi('with') eqi('danger') ] ... ;
+
+defSpanType idiom_424 =:
+... [ eqi('by') eqi('a') eqi('hairs') eqi('breadth') ] ... ||
+... [ eqi('by') eqi('a') eqi('hair') eqi('\'') eqi('s')eqi('breadth') ] ... ;
+
+defSpanType idiom_425 =:
+... [ ai(hang) eqi('on') eqi('for') eqi('dear') eqi('life') ] ... ;
+
+defSpanType idiom_426 =:
+... [ re('^[L|l]iv') eqi('to') eqi('tell') eqi('the') re('^tale') ] ... ;
+
+defSpanType idiom_427 =:
+... [ re('^[L|l]ook') eqi('before') ai(subjectPRN) re('^leap') ] ... ;
+
+defSpanType idiom_428 =:
+... [ eqi('no') eqi('go') eqi('area') ] ... ;
+
+defSpanType idiom_429 =:
+... [ eqi('out') eqi('of') eqi('harms') eqi('way') ] ... ||
+... [ eqi('out') eqi('of') eqi('harm') eqi('\'') eqi('s') eqi('way') ] ... ;
+
+defSpanType idiom_430 =:
+... [ re('^[P|p]lay') eqi('with') eqi('fire') ] ... ;
+
+defSpanType idiom_431 =:
+... [ re('^[P|p]ut') ai(possessivePRN) eqi('head') eqi('on') eqi('the') eqi('block') ] ... ; 
+
+defSpanType idiom_432 =:
+... [ ai(ride) eqi('it') eqi('out') ] ... ;
+
+defSpanType idiom_433 =:
+... [ re('^[R|r]isk') eqi('life') eqi('and') eqi('limb') ] ... ;
+
+defSpanType idiom_434 =:
+... [ eqi('in') eqi('safe') eqi('hands') ] ... ;
+
+defSpanType idiom_435 =:
+... [ eqi('on') eqi('the') eqi('safe') eqi('side') ] ... ;
+
+defSpanType idiom_436 =:
+... [ eqi('safety') eqi('in') eqi('numbers') ] ... ;
+
+defSpanType idiom_437 =:
+... [ re('^[S|s]ail') eqi('close') eqi('to') eqi('the') eqi('wind') ] ... ;
+
+defSpanType idiom_438 =:
+... [ re('^[S|s]av') ai(possessivePRN) eqi('neck') ] ... ;
+
+defSpanType idiom_439 =:
+... [ eqi('at') eqi('stake') ] ... ;
+
+defSpanType idiom_440 =:
+... [ ai(take) eqi('cover') ] ... ;
+
+defSpanType idiom_441 =:
+... [ ai(take) eqi('life') eqi('in') ai(possessivePRN) eqi('own') eqi('hands') ] ... ;
+
+defSpanType idiom_442 =:
+... [ re('^[W|w]atch') ai(possessivePRN) eqi('step') ] ... ;
+
+defSpanType idiom_443 =:
+... [ eqi('wrapped') eqi('up') eqi('in') eqi('cotton') eqi('wool') ] ... ;
+
+defSpanType idiom_444 =:
+... [ eqi('asleep') eqi('at') eqi('the') eqi('wheel') ] ... ;
+
+defSpanType idiom_445 =:
+... [ eqi('cat') eqi('nap') ] ... ;
+
+defSpanType idiom_446 =:
+... [ eqi('forty') eqi('winks') ] ... ||
+... [ eqi('40') eqi('winks') ] ... ;
+
+defSpanType idiom_447 =:
+... [ re('^[H|h]it') eqi('the') eqi('hay') ] ... ;
+
+defSpanType idiom_448 =:
+... [ re('^[H|h]it') eqi('the') eqi('sack') ] ... ;
+
+defSpanType idiom_449 =:
+... [ eqi('lie') eqi('in') ] ... ;
+
+defSpanType idiom_450 =:
+... [ eqi('out') eqi('like') eqi('a') eqi('light') ] ... ;
+
+defSpanType idiom_451 =:
+... [ eqi('ready') eqi('to') eqi('drop') ] ... ;
+
+defSpanType idiom_452 =:
+... [ ai(sleep) eqi('like') eqi('a') eqi('log') ] ... ;
+
+defSpanType idiom_453 =:
+... [ ai(sleep) eqi('on') eqi('it') ] ... ;
+
+defSpanType idiom_454 =:
+... [ ai(sleep) eqi('a') eqi('wink') ] ... ;
+
+defSpanType idiom_455 =:
+... [ eqi('lose') eqi('any')? eqi('sleep') eqi('over') ] ... ;
+
+defSpanType idiom_456 =:
+... [ eqi('sleeping') eqi('partner') ] ... ;
+
+defSpanType idiom_457 =:
+... [ re('^[A|a]ce') eqi('a') eqi('test') ] ... ;
+
+defSpanType idiom_458 =:
+... [ ai(have) eqi('an') eqi('ace') eqi('up') ai(possessivePRN) eqi('sleeve') ] ... ; 
+
+defSpanType idiom_459 =:
+... [ ai(hold) eqi('all') eqi('the') eqi('aces') ] ... ;
+
+defSpanType idiom_460 =:
+... [ eqi('also') eqi('ran') ] ... ;
+
+defSpanType idiom_461 =:
+... [ eqi('back') eqi('to') eqi('square') eqi('one') ] ... ;
+
+defSpanType idiom_462 =:
+... [ eqi('in') eqi('the') eqi('bag') ] ... ;
+
+defSpanType idiom_463 =: 
+... [ ai(bear) any? eqi('fruit') ] ... ;
+
+defSpanType idiom_464 =:
+... [ eqi('up') eqi('a') eqi('blind') eqi('alley') ] ... ;
+
+defSpanType idiom_465 =:
+... [ eqi('blockbuster') ] ... ;
+
+defSpanType idiom_466 =:
+... [ ai(blow) eqi('up') eqi('in') ai(possessivePRN) eqi('face') ] ... ;
+
+defSpanType idiom_467 =:
+... [ eqi('bottom') ai(fall) eqi('out') ] ... ;
+
+defSpanType idiom_468 =:
+... [ ai(bring) eqi('the') eqi('house') eqi('down') ] ... ;
+
+defSpanType idiom_469 =:
+... [ eqi('cake') eqi('not') eqi('worth') eqi('the') eqi('candle') ] ... ;
+
+defSpanType idiom_470 =:
+... [ re('^[C|c]hanc') ai(possessivePRN) eqi('arm') ] ... ;
+
+defSpanType idiom_471 =:
+... [ eqi('had') ai(possessivePRN) eqi('chips') ] ... ;
+
+defSpanType idiom_472 =:
+... [ eqi('close') eqi('but') eqi('no') eqi('cigar') ] ... ;
+
+defSpanType idiom_473 =:
+... [ ai(come) eqi('to') eqi('grief') ] ... ;
+
+defSpanType idiom_474 =:
+... [ ai(come) eqi('up') eqi('in') eqi('the') eqi('world') ] ... ;
+
+defSpanType idiom_475 =:
+... [ ai(come) eqi('up') eqi('roses') ] ... ;
+
+defSpanType idiom_476 =:
+... [ re('^[T|t]urn') eqi('up') eqi('trumps') ] ... ;
+
+defSpanType idiom_477 =:
+... [ re('^[C|c]ook') ai(possessivePRN) eqi('goose') ] ... ;
+
+defSpanType idiom_478 =:
+... [ eqi('on') eqi('course') eqi('for') ] ... ;
+
+defSpanType idiom_479 =:
+... [ eqi('crest') eqi('of') eqi('the') eqi('wave') ] ... ;
+
+defSpanType idiom_480 =:
+... [ re('^[C|c]ut') ai(possessivePRN) eqi('losses') ] ... ;
+
+defSpanType idiom_481 =:
+... [ re('^[C|c]ut') ai(possessivePRN) eqi('own')? eqi('throat') ] ... ;
+
+defSpanType idiom_482 =:
+... [ eqi('dead') eqi('cert') ] ... ;
+
+defSpanType idiom_483 =:
+... [ eqi('dead') eqi('duck') ] ... ;
+
+defSpanType idiom_484 =:
+... [ eqi('dead') eqi('in') eqi('the') eqi('water') ] ... ;
+
+defSpanType idiom_485 =:
+... [ eqi('dice') @be any{0,2} eqi('loaded') ] ... ;
+
+defSpanType idiom_486 =:
+... [ eqi('disaster') eqi('written') eqi('all') eqi('over') ] ... ;
+
+defSpanType idiom_487 =:
+... [ eqi('all') eqi('downhill') ] ... ;
+
+defSpanType idiom_488 =:
+... [ ai(draw) eqi('a')? eqi('blank') ] ... ;
+
+defSpanType idiom_489 =:
+... [ eqi('every') eqi('dog') eqi('has') eqi('its') eqi('day') ] ... ;
+
+defSpanType idiom_490 =:
+... [ ai(fall) eqi('at') eqi('first') eqi('hurdle') ] ... ;
+
+defSpanType idiom_491 =:
+... [ ai(fall) eqi('flat') ] ... ;
+
+defSpanType idiom_492 =:
+... [ ai(fall) eqi('from') eqi('grace') ] ... ;
+
+defSpanType idiom_493 =:
+... [ ai(fall) eqi('on') ai(possessivePRN) eqi('sword') ] ... ;
+
+defSpanType idiom_494 =:
+... [ eqi('feather') eqi('in') ai(possessivePRN) eqi('cap') ] ... ;
+
+defSpanType idiom_495 =:
+... [ ai(fight) eqi('a') eqi('losing') eqi('battle') ] ... ;
+
+defSpanType idiom_496 =:
+... [ re('^[R|r]each') eqi('first') eqi('base') ] ... ;
+
+defSpanType idiom_497 =:
+... [ eqi('flash') eqi('in') eqi('the') eqi('pan') ] ... ;
+
+defSpanType idiom_498 =:
+... [ eqi('will') eqi('never') eqi('fly') ] ... ||
+... [ eqi('ll') eqi('never') eqi('fly') ] ... ;
+
+defSpanType idiom_499 =:
+... [ eqi('with') eqi('flying') eqi('colours') ] ... ||
+... [ eqi('with') eqi('flying') eqi('colors') ] ... ;
+
+defSpanType idiom_500 =:
+... [ eqi('flying') eqi('start') ] ... ;
+
+defSpanType idiom_501 =:
+... [ eqi('fools') eqi('errand') ] ... ||
+... [ eqi('fool') eqi('\'') eqi('s') eqi('errand') ] ... ;
+
+defSpanType idiom_502 =:
+... [ eqi('foot') eqi('in') eqi('the') eqi('door') ] ... ;
+
+defSpanType idiom_503 =:
+... [ ai(get) eqi('a') eqi('foothold') ] ... ;
+
+defSpanType idiom_504 =:
+... [ eqi('front') eqi('runner') ] ... ;
+
+defSpanType idiom_505 =:
+... [ ai(get) eqi('the') eqi('better') eqi('of') ai(objectPRN) ] ... ;
+
+defSpanType idiom_506 =:
+... [ ai(go) eqi('to') eqi('the') eqi('dogs') ] ... ;
+
+defSpanType idiom_507 =:
+... [ ai(go) eqi('great') eqi('guns') ] ... ;
+
+defSpanType idiom_508 =:
+... [ ai(go) eqi('off') eqi('with') eqi('a') eqi('bang') ] ... ;
+
+defSpanType idiom_509 =:
+... [ ai(go) eqi('up') eqi('in') eqi('smoke') ] ...;
+
+defSpanType idiom_510 =:
+... [ eqi('got') eqi('it') eqi('made') ] ... ;
+
+defSpanType idiom_511 =:
+... [ re('^[H|h]it') eqi('pay') eqi('dirt') ] ... ;
+
+defSpanType idiom_512 =:
+... [ eqi('on') eqi('its') eqi('knees') ] ... ;
+
+defSpanType idiom_513 =:
+... [ eqi('landslide') eqi('victory') ] ... ;
+
+defSpanType idiom_514 =:
+... [ ai(lead) eqi('to') eqi('a') eqi('dead') eqi('end') ] ... ;
+
+defSpanType idiom_515 =:
+... [ eqi('leaps') eqi('and') eqi('bounds') ] ... ;
+
+defSpanType idiom_516 =:
+... [ re('^[L|l]et') eqi('it') eqi('slip') eqi('through') ai(possessivePRN) eqi('fingers') ] ... ;
+
+defSpanType idiom_517 =:
+... [ re('^[L|l]iv') eqi('to') eqi('fight') eqi('another') eqi('day') ] ... ;
+
+defSpanType idiom_518 =:
+... [ ai(come) eqi('a') eqi('long') eqi('way') ] ... ;
+
+defSpanType idiom_519 =:
+... [ eqi('at') eqi('a') eqi('low') eqi('ebb') ] ... ;
+
+defSpanType idiom_520 =:
+... [ ai(make) eqi('a') eqi('comeback') ] ... ;
+
+defSpanType idiom_521 =:
+... [ ai(make) eqi('the') eqi('cut') ] ... ;
+
+defSpanType idiom_522 =:
+... [ ai(make) eqi('a') eqi('go') eqi('of') ] ... ;
+
+defSpanType idiom_523 =:
+... [ ai(make) eqi('headway') ] ... ;
+
+defSpanType idiom_524 =:
+... [ ai(make) eqi('inroads') ] ... ;
+
+defSpanType idiom_525 =:
+... [ ai(make) eqi('a') eqi('killing') ] ... ;
+
+defSpanType idiom_526 =:
+... [ eqi('make') eqi('or') eqi('break') ] ... ;
+
+defSpanType idiom_527 =:
+... [ ai(make) eqi('a') eqi('pigs') eqi('ear') eqi('of') ] ... ;
+
+defSpanType idiom_528 =:
+... [ re('^[M|m]iss') eqi('the') eqi('boat') ] ... ;
+
+defSpanType idiom_529 =:
+... [ eqi('moment') eqi('of') eqi('truth') ] ... ;
+
+defSpanType idiom_530 =:
+... [ re('^[M|m]ov') eqi('up') eqi('in') eqi('the') eqi('world') ] ... ;
+
+defSpanType idiom_531 =:
+... [ eqi('Murphy') eqi('\'') eqi('s') eqi('law') ] ... ;
+
+defSpanType idiom_532 =:
+... [ @not eqi('getting') eqi('anywhere') ] ... ;
+
+defSpanType idiom_533 =:
+... [ eqi('nothing') eqi('succeeds') eqi('like') eqi('success') ] ... ;
+
+defSpanType idiom_534 =:
+... [ eqi('nothing') eqi('ventured') eqi('nothing') eqi('gained') ] ... ;
+
+defSpanType idiom_535 =:
+... [ eqi('out') eqi('of') eqi('the') eqi('picture') ] ... ;
+
+defSpanType idiom_536 =:
+... [ eqi('ahead') eqi('of') eqi('the') eqi('pack') ] ... ;
+
+defSpanType idiom_537 =:
+... [ re('^[P|p]ack') eqi('it') eqi('in') ] ... ;
+
+defSpanType idiom_538 =:
+... [ re('^[P|p]ass') eqi('muster') ] ... ;
+
+defSpanType idiom_539 =:
+... [ eqi('on') eqi('the') eqi('pig') eqi('\'') eqi('s') eqi('back') ] ... ;
+
+defSpanType idiom_540 =:
+... [ eqi('place') eqi('in') eqi('the') eqi('sun') ] ... ;
+
+defSpanType idiom_541 =:
+... [ re('^[P|p]ut') eqi('the') eqi('kibosh') eqi('on') ] ... ;
+
+defSpanType idiom_542 =:
+... [ eqi('Pyrrhic') eqi('victory') ] ... ;
+
+defSpanType idiom_543 =:
+... [ eqi('rags') eqi('to') eqi('riches') ] ... ;
+
+defSpanType idiom_544 =:
+... [ eqi('riding') eqi('high') ] ... ;
+
+defSpanType idiom_545 =:
+... [ ai(rise) eqi('to') eqi('the') eqi('occasion') ] ... ;
+
+defSpanType idiom_546 =:
+... [ ai(run) eqi('rings') eqi('around') ] ... ;
+
+defSpanType idiom_547 =:
+... [ re('^[S|s]ail') eqi('through') ] ... ;
+
+defSpanType idiom_548 =:
+... [ re('^[S|s]av') eqi('the') eqi('day') ] ... ;
+
+defSpanType idiom_549 =:
+... [ eqi('sink') eqi('or') eqi('swim') ] ... ;
+
+defSpanType idiom_550 =:
+... [ eqi('sky') eqi('\'') eqi('s') eqi('the') eqi('limit') ] ... ||
+... [ eqi('sky') eqi('is') eqi('the') eqi('limit') ] ... ;
+
+defSpanType idiom_551 =:
+... [ eqi('smash') eqi('hit') ] ... ;
+
+defSpanType idiom_552 =:
+... [ re('^[S|s]natch') eqi('victory') eqi('from') eqi('the') eqi('jaws') eqi('of') eqi('defeat') ] ... ;
+
+defSpanType idiom_553 =:
+... [ eqi('spread')  ai(reflexivePRN) eqi('too') eqi('thin') ] ... ;
+
+defSpanType idiom_554 =:
+... [ ai(throw) eqi('a') eqi('spanner') eqi('in') eqi('the') eqi('works') ] ... ;
+
+defSpanType idiom_555 =:
+... [ ai(throw) eqi('in') eqi('the') eqi('towel') ] ... ;
+
+defSpanType idiom_556 =:
+... [ eqi('top') eqi('dog') ] ... ;
+
+defSpanType idiom_557 =:
+... [ eqi('on') eqi('the') eqi('up') eqi('and') eqi('up') ] ... ;
+
+defSpanType idiom_558 =:
+... [ re('^[W|w]eather') eqi('the') eqi('storm') ] ... ;
+
+defSpanType idiom_559 =:
+... [ eqi('win') eqi('-')? eqi('win') ] ... ;
+
+defSpanType idiom_560 =:
+... [ re('^[W|w]ither') eqi('on') eqi('the') eqi('vine') ] ... ;
+
+defSpanType idiom_561 =:
+... [ eqi('wooden') eqi('spoon') ] ... ;
+
+defSpanType idiom_562 =:
+... [ ai(have) eqi('the') eqi('world') eqi('at') ai(possessivePRN) eqi('feet') ] ... ;
+
+defSpanType idiom_563 =:
+... [ ai(have) eqi('the') eqi('world') eqi('by') eqi('its') eqi('tail') ] ... ;
+
+defSpanType idiom_564 =:
+... [ eqi('bolt') eqi('from') eqi('the') eqi('blue') ] ... ;
+
+defSpanType idiom_565 =:
+... [ eqi('out') eqi('of') eqi('the') eqi('blue') ] ... ;
+
+defSpanType idiom_566 =:
+... [ eqi('caught') eqi('unaware') ] ... ;
+
+defSpanType idiom_567 =:
+... [ eqi('do') eqi('a') eqi('double') eqi('take') ] ... ;
+
+defSpanType idiom_568 =:
+... [ re('^[D|d]rop') eqi('a') eqi('bombshell') ] ... ;
+
+defSpanType idiom_569 =:
+... [ eqi('eyes') eqi('on') eqi('stalks') ] ... ;
+
+defSpanType idiom_570 =:
+... [ eqi('jaw') any? re('^drop') ] ... ;
+
+defSpanType idiom_571 =:
+... [ re('^[J|j]ump') eqi('out') eqi('of') ai(possessivePRN) eqi('skin') ] ... ;
+
+defSpanType idiom_572 =:
+... [ re('^[K|k]nock') ai(possessivePRN) eqi('socks') eqi('off') ] ... ;
+
+defSpanType idiom_573 =:
+... [ re('^[K|k]nock') eqi('down') eqi('with') eqi('feather') ] ... ;
+
+defSpanType idiom_574 =:
+... [ eqi('lo') eqi('and') eqi('behold') ] ... ;
+
+defSpanType idiom_575 =:
+... [ eqi('nine') eqi('day') eqi('wonder') ] ... ||
+... [ eqi('9') eqi('day') eqi('wonder') ] ... ;
+
+defSpanType idiom_576 =:
+... [ re('^[R|r]ais') eqi('eyebrows') ] ... ;
+
+defSpanType idiom_577 =:
+... [ eqi('rooted') eqi('to') eqi('the') eqi('spot') ] ... ;
+
+defSpanType idiom_578 =:
+... [ eqi('seeing') eqi('is') eqi('believing') ] ... ;
+
+defSpanType idiom_579 =:
+... [ re('^[S|s]top') eqi('dead') eqi('in') ai(possessivePRN) eqi('tracks') ] ... ;
+
+defSpanType idiom_580 =:
+... [ eqi('struck') eqi('dumb') ] ... ;
+
+defSpanType idiom_581 =:
+... [ eqi('taken') eqi('unaware') ] ... ;
+
+defSpanType idiom_582 =:
+... [ eqi('there') eqi('\'') eqi('s') eqi('no') eqi('accounting') eqi('for') eqi('taste') ] ... ||
+... [ eqi('there') eqi('is') eqi('no') eqi('accounting') eqi('for') eqi('taste') ] ... ;
+
+defSpanType idiom_583 =:
+... [ eqi('wonders') eqi('will') eqi('never') eqi('cease') ] ... ;
+
+defSpanType idiom_584 =:
+... [ eqi('words') any? re('^fail') ai(objectPRN) ] ... ;
+
+defSpanType idiom_585 =:
+... [ eqi('bandit') eqi('territory') ] ... ;
+
+defSpanType idiom_586 =:
+... [ re('^[B|b]eat') eqi('black') eqi('and') eqi('blue') ] ... ;
+
+defSpanType idiom_588 =:
+... [ re('^[B|b]eat') eqi('the') eqi('living') eqi('daylights') ] ... ;
+
+defSpanType idiom_589 =:
+... [ ai(come) eqi('to') eqi('blows') ] ... ;
+
+defSpanType idiom_590 =:
+... [ ai(fight) eqi('tooth') eqi('and') eqi('nail') ] ... ;
+
+defSpanType idiom_592 =:
+... [ eqi('free') eqi('for') eqi('all') ] ... ;
+
+defSpanType idiom_595 =:
+... [ eqi('tit') eqi('for') eqi('tat') ] ... ;
+
+defSpanType idiom_597 =:
+... [ eqi('through') eqi('the') eqi('wars') ] ... ||
+... [ eqi('in') eqi('the') eqi('wars') ] ... ;
+
+defSpanType idiom_598 =:
+... [ eqi('in') any eqi('good') eqi('books') ] ... ;
+
+defSpanType idiom =: 
+... [ @idiom_01 ] ... ||
+... [ @idiom_02 ] ... ||
+... [ @idiom_03 ] ... ||
+... [ @idiom_04 ] ... ||
+... [ @idiom_05 ] ... ||
+... [ @idiom_06 ] ... ||
+... [ @idiom_07 ] ... ||
+... [ @idiom_08 ] ... ||
+... [ @idiom_09 ] ... ||
+... [ @idiom_10 ] ... ||
+... [ @idiom_11 ] ... ||
+... [ @idiom_12 ] ... ||
+... [ @idiom_13 ] ... ||
+... [ @idiom_14 ] ... ||
+... [ @idiom_15 ] ... ||
+... [ @idiom_16 ] ... ||
+... [ @idiom_17 ] ... ||
+... [ @idiom_18 ] ... ||
+... [ @idiom_19 ] ... ||
+... [ @idiom_20 ] ... ||
+... [ @idiom_21 ] ... ||
+... [ @idiom_22 ] ... ||
+... [ @idiom_23 ] ... ||
+... [ @idiom_24 ] ... ||
+... [ @idiom_25 ] ... ||
+... [ @idiom_26 ] ... ||
+... [ @idiom_27 ] ... ||
+... [ @idiom_28 ] ... ||
+... [ @idiom_29 ] ... ||
+... [ @idiom_30 ] ... ||
+... [ @idiom_31 ] ... ||
+... [ @idiom_32 ] ... ||
+... [ @idiom_33 ] ... ||
+... [ @idiom_34 ] ... ||
+... [ @idiom_35 ] ... ||
+... [ @idiom_36 ] ... ||
+... [ @idiom_37 ] ... ||
+... [ @idiom_38 ] ... ||
+... [ @idiom_39 ] ... ||
+... [ @idiom_40 ] ... ||
+... [ @idiom_41 ] ... ||
+... [ @idiom_42 ] ... ||
+... [ @idiom_43 ] ... ||
+... [ @idiom_44 ] ... ||
+... [ @idiom_45 ] ... ||
+... [ @idiom_46 ] ... ||
+... [ @idiom_47 ] ... ||
+... [ @idiom_48 ] ... ||
+... [ @idiom_49 ] ... ||
+... [ @idiom_50 ] ... ||
+... [ @idiom_51 ] ... ||
+... [ @idiom_53 ] ... ||
+... [ @idiom_54 ] ... ||
+... [ @idiom_55 ] ... ||
+... [ @idiom_56 ] ... ||
+... [ @idiom_57 ] ... ||
+... [ @idiom_58 ] ... ||
+... [ @idiom_59 ] ... ||
+... [ @idiom_60 ] ... ||
+... [ @idiom_61 ] ... ||
+... [ @idiom_62 ] ... ||
+... [ @idiom_63 ] ... ||
+... [ @idiom_64 ] ... ||
+... [ @idiom_65 ] ... ||
+... [ @idiom_66 ] ... ||
+... [ @idiom_67 ] ... ||
+... [ @idiom_68 ] ... ||
+... [ @idiom_69 ] ... ||
+... [ @idiom_70 ] ... ||
+... [ @idiom_71 ] ... ||
+... [ @idiom_72 ] ... ||
+... [ @idiom_73 ] ... ||
+... [ @idiom_74 ] ... ||
+... [ @idiom_75 ] ... ||
+... [ @idiom_76 ] ... ||
+... [ @idiom_77 ] ... ||
+... [ @idiom_78 ] ... ||
+... [ @idiom_79 ] ... ||
+... [ @idiom_80 ] ... ||
+... [ @idiom_81 ] ... ||
+... [ @idiom_82 ] ... ||
+... [ @idiom_83 ] ... ||
+... [ @idiom_84 ] ... ||
+... [ @idiom_85 ] ... ||
+... [ @idiom_86 ] ... ||
+... [ @idiom_87 ] ... ||
+... [ @idiom_88 ] ... ||
+... [ @idiom_89 ] ... ||
+... [ @idiom_90 ] ... ||
+... [ @idiom_91 ] ... ||
+... [ @idiom_92 ] ... ||
+... [ @idiom_93 ] ... ||
+... [ @idiom_94 ] ... ||
+... [ @idiom_95 ] ... ||
+... [ @idiom_96 ] ... ||
+... [ @idiom_97 ] ... ||
+... [ @idiom_98 ] ... ||
+... [ @idiom_99 ] ... ||
+... [ @idiom_100 ] ... ||
+... [ @idiom_101 ] ... ||
+... [ @idiom_102 ] ... ||
+... [ @idiom_103 ] ... ||
+... [ @idiom_104 ] ... ||
+... [ @idiom_105 ] ... ||
+... [ @idiom_106 ] ... ||
+... [ @idiom_107 ] ... ||
+... [ @idiom_108 ] ... ||
+... [ @idiom_109 ] ... ||
+... [ @idiom_110 ] ... ||
+... [ @idiom_111 ] ... ||
+... [ @idiom_111 ] ... ||
+... [ @idiom_113 ] ... ||
+... [ @idiom_114 ] ... ||
+... [ @idiom_115 ] ... ||
+... [ @idiom_116 ] ... ||
+... [ @idiom_117 ] ... ||
+... [ @idiom_118 ] ... ||
+... [ @idiom_119 ] ... ||
+... [ @idiom_120 ] ... ||
+... [ @idiom_121 ] ... ||
+... [ @idiom_122 ] ... ||
+... [ @idiom_123 ] ... ||
+... [ @idiom_124 ] ... ||
+... [ @idiom_125 ] ... ||
+... [ @idiom_126 ] ... ||
+... [ @idiom_127 ] ... ||
+... [ @idiom_128 ] ... ||
+... [ @idiom_129 ] ... ||
+... [ @idiom_130 ] ... ||
+... [ @idiom_131 ] ... ||
+... [ @idiom_132 ] ... ||
+... [ @idiom_133 ] ... ||
+... [ @idiom_134 ] ... ||
+... [ @idiom_135 ] ... ||
+... [ @idiom_136 ] ... ||
+... [ @idiom_137 ] ... ||
+... [ @idiom_138 ] ... ||
+... [ @idiom_139 ] ... ||
+... [ @idiom_140 ] ... ||
+... [ @idiom_141 ] ... ||
+... [ @idiom_142 ] ... ||
+... [ @idiom_143 ] ... ||
+... [ @idiom_144 ] ... ||
+... [ @idiom_145 ] ... ||
+... [ @idiom_146 ] ... ||
+... [ @idiom_147 ] ... ||
+... [ @idiom_148 ] ... ||
+... [ @idiom_149 ] ... ||
+... [ @idiom_150 ] ... ||
+... [ @idiom_151 ] ... ||
+... [ @idiom_152 ] ... ||
+... [ @idiom_153 ] ... ||
+... [ @idiom_154 ] ... ||
+... [ @idiom_155 ] ... ||
+... [ @idiom_156 ] ... ||
+... [ @idiom_157 ] ... ||
+... [ @idiom_158 ] ... ||
+... [ @idiom_159 ] ... ||
+... [ @idiom_160 ] ... ||
+... [ @idiom_161 ] ... ||
+... [ @idiom_162 ] ... ||
+... [ @idiom_163 ] ... ||
+... [ @idiom_164 ] ... ||
+... [ @idiom_165 ] ... ||
+... [ @idiom_166 ] ... ||
+... [ @idiom_167 ] ... ||
+... [ @idiom_168 ] ... ||
+... [ @idiom_169 ] ... ||
+... [ @idiom_170 ] ... ||
+... [ @idiom_171 ] ... ||
+... [ @idiom_172 ] ... ||
+... [ @idiom_173 ] ... ||
+... [ @idiom_174 ] ... ||
+... [ @idiom_175 ] ... ||
+... [ @idiom_176 ] ... ||
+... [ @idiom_177 ] ... ||
+... [ @idiom_178 ] ... ||
+... [ @idiom_179 ] ... ||
+... [ @idiom_180 ] ... ||
+... [ @idiom_181 ] ... ||
+... [ @idiom_182 ] ... ||
+... [ @idiom_183 ] ... ||
+... [ @idiom_184 ] ... ||
+... [ @idiom_185 ] ... ||
+... [ @idiom_186 ] ... ||
+... [ @idiom_187 ] ... ||
+... [ @idiom_188 ] ... ||
+... [ @idiom_189 ] ... ||
+... [ @idiom_190 ] ... ||
+... [ @idiom_191 ] ... ||
+... [ @idiom_192 ] ... ||
+... [ @idiom_193 ] ... ||
+... [ @idiom_194 ] ... ||
+... [ @idiom_195 ] ... ||
+... [ @idiom_196 ] ... ||
+... [ @idiom_197 ] ... ||
+... [ @idiom_198 ] ... ||
+... [ @idiom_199 ] ... ||
+... [ @idiom_200 ] ... ||
+... [ @idiom_201 ] ... ||
+... [ @idiom_202 ] ... ||
+... [ @idiom_203 ] ... ||
+... [ @idiom_204 ] ... ||
+... [ @idiom_205 ] ... ||
+... [ @idiom_206 ] ... ||
+... [ @idiom_207 ] ... ||
+... [ @idiom_208 ] ... ||
+... [ @idiom_209 ] ... ||
+... [ @idiom_210 ] ... ||
+... [ @idiom_211 ] ... ||
+... [ @idiom_212 ] ... ||
+... [ @idiom_213 ] ... ||
+... [ @idiom_214 ] ... ||
+... [ @idiom_215 ] ... ||
+... [ @idiom_216 ] ... ||
+... [ @idiom_217 ] ... ||
+... [ @idiom_218 ] ... ||
+... [ @idiom_219 ] ... ||
+... [ @idiom_220 ] ... ||
+... [ @idiom_221 ] ... ||
+... [ @idiom_222 ] ... ||
+... [ @idiom_223 ] ... ||
+... [ @idiom_224 ] ... ||
+... [ @idiom_225 ] ... ||
+... [ @idiom_226 ] ... ||
+... [ @idiom_227 ] ... ||
+... [ @idiom_228 ] ... ||
+... [ @idiom_229 ] ... ||
+... [ @idiom_230 ] ... ||
+... [ @idiom_231 ] ... ||
+... [ @idiom_232 ] ... ||
+... [ @idiom_233 ] ... ||
+... [ @idiom_234 ] ... ||
+... [ @idiom_235 ] ... ||
+... [ @idiom_236 ] ... ||
+... [ @idiom_237 ] ... ||
+... [ @idiom_238 ] ... ||
+... [ @idiom_239 ] ... ||
+... [ @idiom_240 ] ... ||
+... [ @idiom_241 ] ... ||
+... [ @idiom_242 ] ... ||
+... [ @idiom_243 ] ... ||
+... [ @idiom_244 ] ... ||
+... [ @idiom_245 ] ... ||
+... [ @idiom_246 ] ... ||
+... [ @idiom_247 ] ... ||
+... [ @idiom_248 ] ... ||
+... [ @idiom_249 ] ... ||
+... [ @idiom_250 ] ... ||
+... [ @idiom_251 ] ... ||
+... [ @idiom_252 ] ... ||
+... [ @idiom_253 ] ... ||
+... [ @idiom_254 ] ... ||
+... [ @idiom_255 ] ... ||
+... [ @idiom_256 ] ... ||
+... [ @idiom_257 ] ... ||
+... [ @idiom_258 ] ... ||
+... [ @idiom_259 ] ... ||
+... [ @idiom_260 ] ... ||
+... [ @idiom_261 ] ... ||
+... [ @idiom_262 ] ... ||
+... [ @idiom_263 ] ... ||
+... [ @idiom_264 ] ... ||
+... [ @idiom_265 ] ... ||
+... [ @idiom_266 ] ... ||
+... [ @idiom_267 ] ... ||
+... [ @idiom_268 ] ... ||
+... [ @idiom_269 ] ... ||
+... [ @idiom_270 ] ... ||
+... [ @idiom_271 ] ... ||
+... [ @idiom_272 ] ... ||
+... [ @idiom_273 ] ... ||
+... [ @idiom_274 ] ... ||
+... [ @idiom_275 ] ... ||
+... [ @idiom_276 ] ... ||
+... [ @idiom_277 ] ... ||
+... [ @idiom_278 ] ... ||
+... [ @idiom_279 ] ... ||
+... [ @idiom_280 ] ... ||
+... [ @idiom_281 ] ... ||
+... [ @idiom_282 ] ... ||
+... [ @idiom_283 ] ... ||
+... [ @idiom_284 ] ... ||
+... [ @idiom_285 ] ... ||
+... [ @idiom_286 ] ... ||
+... [ @idiom_287 ] ... ||
+... [ @idiom_288 ] ... ||
+... [ @idiom_289 ] ... ||
+... [ @idiom_290 ] ... ||
+... [ @idiom_291 ] ... ||
+... [ @idiom_292 ] ... ||
+... [ @idiom_293 ] ... ||
+... [ @idiom_294 ] ... ||
+... [ @idiom_295 ] ... ||
+... [ @idiom_296 ] ... ||
+... [ @idiom_297 ] ... ||
+... [ @idiom_298 ] ... ||
+... [ @idiom_299 ] ... ||
+... [ @idiom_300 ] ... ||
+... [ @idiom_301 ] ... ||
+... [ @idiom_302 ] ... ||
+... [ @idiom_303 ] ... ||
+... [ @idiom_304 ] ... ||
+... [ @idiom_305 ] ... ||
+... [ @idiom_306 ] ... ||
+... [ @idiom_307 ] ... ||
+... [ @idiom_308 ] ... ||
+... [ @idiom_309 ] ... ||
+... [ @idiom_310 ] ... ||
+... [ @idiom_311 ] ... ||
+... [ @idiom_312 ] ... ||
+... [ @idiom_313 ] ... ||
+... [ @idiom_314 ] ... ||
+... [ @idiom_315 ] ... ||
+... [ @idiom_316 ] ... ||
+... [ @idiom_317 ] ... ||
+... [ @idiom_318 ] ... ||
+... [ @idiom_319 ] ... ||
+... [ @idiom_320 ] ... ||
+... [ @idiom_321 ] ... ||
+... [ @idiom_322 ] ... ||
+... [ @idiom_323 ] ... ||
+... [ @idiom_324 ] ... ||
+... [ @idiom_325 ] ... ||
+... [ @idiom_326 ] ... ||
+... [ @idiom_327 ] ... ||
+... [ @idiom_328 ] ... ||
+... [ @idiom_329 ] ... ||
+... [ @idiom_330 ] ... ||
+... [ @idiom_331 ] ... ||
+... [ @idiom_332 ] ... ||
+... [ @idiom_333 ] ... ||
+... [ @idiom_334 ] ... ||
+... [ @idiom_335 ] ... ||
+... [ @idiom_336 ] ... ||
+... [ @idiom_337 ] ... ||
+... [ @idiom_338 ] ... ||
+... [ @idiom_339 ] ... ||
+... [ @idiom_340 ] ... ||
+... [ @idiom_341 ] ... ||
+... [ @idiom_342 ] ... ||
+... [ @idiom_343 ] ... ||
+... [ @idiom_344 ] ... ||
+... [ @idiom_345 ] ... ||
+... [ @idiom_346 ] ... ||
+... [ @idiom_347 ] ... ||
+... [ @idiom_348 ] ... ||
+... [ @idiom_349 ] ... ||
+... [ @idiom_350 ] ... ||
+... [ @idiom_351 ] ... ||
+... [ @idiom_352 ] ... ||
+... [ @idiom_353 ] ... ||
+... [ @idiom_354 ] ... ||
+... [ @idiom_355 ] ... ||
+... [ @idiom_356 ] ... ||
+... [ @idiom_357 ] ... ||
+... [ @idiom_358 ] ... ||
+... [ @idiom_359 ] ... ||
+... [ @idiom_360 ] ... ||
+... [ @idiom_361 ] ... ||
+... [ @idiom_362 ] ... ||
+... [ @idiom_363 ] ... ||
+... [ @idiom_364 ] ... ||
+... [ @idiom_365 ] ... ||
+... [ @idiom_366 ] ... ||
+... [ @idiom_367 ] ... ||
+... [ @idiom_368 ] ... ||
+... [ @idiom_369 ] ... ||
+... [ @idiom_370 ] ... ||
+... [ @idiom_371 ] ... ||
+... [ @idiom_372 ] ... ||
+... [ @idiom_373 ] ... ||
+... [ @idiom_374 ] ... ||
+... [ @idiom_375 ] ... ||
+... [ @idiom_376 ] ... ||
+... [ @idiom_377 ] ... ||
+... [ @idiom_378 ] ... ||
+... [ @idiom_379 ] ... ||
+... [ @idiom_380 ] ... ||
+... [ @idiom_381 ] ... ||
+... [ @idiom_382 ] ... ||
+... [ @idiom_383 ] ... ||
+... [ @idiom_384 ] ... ||
+... [ @idiom_385 ] ... ||
+... [ @idiom_386 ] ... ||
+... [ @idiom_387 ] ... ||
+... [ @idiom_388 ] ... ||
+... [ @idiom_389 ] ... ||
+... [ @idiom_390 ] ... ||
+... [ @idiom_391 ] ... ||
+... [ @idiom_392 ] ... ||
+... [ @idiom_393 ] ... ||
+... [ @idiom_394 ] ... ||
+... [ @idiom_395 ] ... ||
+... [ @idiom_396 ] ... ||
+... [ @idiom_397 ] ... ||
+... [ @idiom_398 ] ... ||
+... [ @idiom_399 ] ... ||
+... [ @idiom_400 ] ... ||
+... [ @idiom_401 ] ... ||
+... [ @idiom_402 ] ... ||
+... [ @idiom_403 ] ... ||
+... [ @idiom_404 ] ... ||
+... [ @idiom_405 ] ... ||
+... [ @idiom_406 ] ... ||
+... [ @idiom_407 ] ... ||
+... [ @idiom_408 ] ... ||
+... [ @idiom_409 ] ... ||
+... [ @idiom_410 ] ... ||
+... [ @idiom_411 ] ... ||
+... [ @idiom_412 ] ... ||
+... [ @idiom_413 ] ... ||
+... [ @idiom_414 ] ... ||
+... [ @idiom_415 ] ... ||
+... [ @idiom_416 ] ... ||
+... [ @idiom_417 ] ... ||
+... [ @idiom_418 ] ... ||
+... [ @idiom_419 ] ... ||
+... [ @idiom_420 ] ... ||
+... [ @idiom_421 ] ... ||
+... [ @idiom_422 ] ... ||
+... [ @idiom_423 ] ... ||
+... [ @idiom_424 ] ... ||
+... [ @idiom_425 ] ... ||
+... [ @idiom_426 ] ... ||
+... [ @idiom_427 ] ... ||
+... [ @idiom_428 ] ... ||
+... [ @idiom_429 ] ... ||
+... [ @idiom_430 ] ... ||
+... [ @idiom_431 ] ... ||
+... [ @idiom_432 ] ... ||
+... [ @idiom_433 ] ... ||
+... [ @idiom_434 ] ... ||
+... [ @idiom_435 ] ... ||
+... [ @idiom_436 ] ... ||
+... [ @idiom_437 ] ... ||
+... [ @idiom_438 ] ... ||
+... [ @idiom_439 ] ... ||
+... [ @idiom_440 ] ... ||
+... [ @idiom_441 ] ... ||
+... [ @idiom_442 ] ... ||
+... [ @idiom_443 ] ... ||
+... [ @idiom_444 ] ... ||
+... [ @idiom_445 ] ... ||
+... [ @idiom_446 ] ... ||
+... [ @idiom_447 ] ... ||
+... [ @idiom_448 ] ... ||
+... [ @idiom_449 ] ... ||
+... [ @idiom_450 ] ... ||
+... [ @idiom_451 ] ... ||
+... [ @idiom_452 ] ... ||
+... [ @idiom_453 ] ... ||
+... [ @idiom_454 ] ... ||
+... [ @idiom_455 ] ... ||
+... [ @idiom_456 ] ... ||
+... [ @idiom_457 ] ... ||
+... [ @idiom_458 ] ... ||
+... [ @idiom_459 ] ... ||
+... [ @idiom_460 ] ... ||
+... [ @idiom_461 ] ... ||
+... [ @idiom_462 ] ... ||
+... [ @idiom_463 ] ... ||
+... [ @idiom_464 ] ... ||
+... [ @idiom_465 ] ... ||
+... [ @idiom_466 ] ... ||
+... [ @idiom_467 ] ... ||
+... [ @idiom_468 ] ... ||
+... [ @idiom_469 ] ... ||
+... [ @idiom_470 ] ... ||
+... [ @idiom_471 ] ... ||
+... [ @idiom_472 ] ... ||
+... [ @idiom_473 ] ... ||
+... [ @idiom_474 ] ... ||
+... [ @idiom_475 ] ... ||
+... [ @idiom_476 ] ... ||
+... [ @idiom_477 ] ... ||
+... [ @idiom_478 ] ... ||
+... [ @idiom_479 ] ... ||
+... [ @idiom_480 ] ... ||
+... [ @idiom_481 ] ... ||
+... [ @idiom_482 ] ... ||
+... [ @idiom_483 ] ... ||
+... [ @idiom_484 ] ... ||
+... [ @idiom_485 ] ... ||
+... [ @idiom_486 ] ... ||
+... [ @idiom_487 ] ... ||
+... [ @idiom_488 ] ... ||
+... [ @idiom_489 ] ... ||
+... [ @idiom_490 ] ... ||
+... [ @idiom_491 ] ... ||
+... [ @idiom_492 ] ... ||
+... [ @idiom_493 ] ... ||
+... [ @idiom_494 ] ... ||
+... [ @idiom_495 ] ... ||
+... [ @idiom_496 ] ... ||
+... [ @idiom_497 ] ... ||
+... [ @idiom_498 ] ... ||
+... [ @idiom_499 ] ... ||
+... [ @idiom_500 ] ... ||
+... [ @idiom_501 ] ... ||
+... [ @idiom_502 ] ... ||
+... [ @idiom_503 ] ... ||
+... [ @idiom_504 ] ... ||
+... [ @idiom_505 ] ... ||
+... [ @idiom_506 ] ... ||
+... [ @idiom_507 ] ... ||
+... [ @idiom_508 ] ... ||
+... [ @idiom_509 ] ... ||
+... [ @idiom_510 ] ... ||
+... [ @idiom_511 ] ... ||
+... [ @idiom_512 ] ... ||
+... [ @idiom_513 ] ... ||
+... [ @idiom_514 ] ... ||
+... [ @idiom_515 ] ... ||
+... [ @idiom_516 ] ... ||
+... [ @idiom_517 ] ... ||
+... [ @idiom_518 ] ... ||
+... [ @idiom_519 ] ... ||
+... [ @idiom_520 ] ... ||
+... [ @idiom_521 ] ... ||
+... [ @idiom_522 ] ... ||
+... [ @idiom_523 ] ... ||
+... [ @idiom_524 ] ... ||
+... [ @idiom_525 ] ... ||
+... [ @idiom_526 ] ... ||
+... [ @idiom_527 ] ... ||
+... [ @idiom_528 ] ... ||
+... [ @idiom_529 ] ... ||
+... [ @idiom_530 ] ... ||
+... [ @idiom_531 ] ... ||
+... [ @idiom_532 ] ... ||
+... [ @idiom_533 ] ... ||
+... [ @idiom_534 ] ... ||
+... [ @idiom_535 ] ... ||
+... [ @idiom_536 ] ... ||
+... [ @idiom_537 ] ... ||
+... [ @idiom_538 ] ... ||
+... [ @idiom_539 ] ... ||
+... [ @idiom_540 ] ... ||
+... [ @idiom_541 ] ... ||
+... [ @idiom_542 ] ... ||
+... [ @idiom_543 ] ... ||
+... [ @idiom_544 ] ... ||
+... [ @idiom_545 ] ... ||
+... [ @idiom_546 ] ... ||
+... [ @idiom_547 ] ... ||
+... [ @idiom_548 ] ... ||
+... [ @idiom_549 ] ... ||
+... [ @idiom_550 ] ... ||
+... [ @idiom_551 ] ... ||
+... [ @idiom_552 ] ... ||
+... [ @idiom_553 ] ... ||
+... [ @idiom_554 ] ... ||
+... [ @idiom_555 ] ... ||
+... [ @idiom_556 ] ... ||
+... [ @idiom_557 ] ... ||
+... [ @idiom_558 ] ... ||
+... [ @idiom_559 ] ... ||
+... [ @idiom_560 ] ... ||
+... [ @idiom_561 ] ... ||
+... [ @idiom_562 ] ... ||
+... [ @idiom_563 ] ... ||
+... [ @idiom_564 ] ... ||
+... [ @idiom_565 ] ... ||
+... [ @idiom_566 ] ... ||
+... [ @idiom_567 ] ... ||
+... [ @idiom_568 ] ... ||
+... [ @idiom_569 ] ... ||
+... [ @idiom_570 ] ... ||
+... [ @idiom_571 ] ... ||
+... [ @idiom_572 ] ... ||
+... [ @idiom_573 ] ... ||
+... [ @idiom_574 ] ... ||
+... [ @idiom_575 ] ... ||
+... [ @idiom_576 ] ... ||
+... [ @idiom_577 ] ... ||
+... [ @idiom_578 ] ... ||
+... [ @idiom_579 ] ... ||
+... [ @idiom_580 ] ... ||
+... [ @idiom_581 ] ... ||
+... [ @idiom_582 ] ... ||
+... [ @idiom_583 ] ... ||
+... [ @idiom_584 ] ... ||
+... [ @idiom_585 ] ... ||
+... [ @idiom_586 ] ... ||
+... [ @idiom_587 ] ... ||
+... [ @idiom_588 ] ... ||
+... [ @idiom_589 ] ... ||
+... [ @idiom_590 ] ... ||
+... [ @idiom_592 ] ... ||
+... [ @idiom_594 ] ... ||
+... [ @idiom_595 ] ... ||
+... [ @idiom_597 ] ... ||
+... [ @idiom_598 ] ... ;
+
+defDict negativeWords = no, not, none, nobody, nothing, neither, nowhere, never;
+defDict negativeAdverbs = hardly, scarcely, barely;
+defDict negativeAdjective = unable, impossible, incapable;
+
+defSpanType negatedVerbs =:
+... [ eqi('doesn') eqi('\'') eqi('t') ] ... ||
+... [ eqi('didn') eqi('\'') eqi('t') ] ... ||
+... [ eqi('isn') eqi('\'') eqi('t') ] ... ||
+... [ eqi('wasn') eqi('\'') eqi('t') ] ... ||
+... [ eqi('hasn') eqi('\'') eqi('t') ] ... ||
+... [ eqi('haven') eqi('\'') eqi('t') ] ... ||
+... [ eqi('can') eqi('\'') eqi('t') ] ... ||
+... [ eqi('couldn') eqi('\'') eqi('t') ] ... ||
+... [ eqi('won') eqi('\'') eqi('t') ] ... ||
+... [ eqi('shan') eqi('\'') eqi('t') ] ... ||
+... [ eqi('wouldn') eqi('\'') eqi('t') ] ... ||
+... [ eqi('shouldn') eqi('\'') eqi('t') ] ... ||
+... [ eqi('cannot') ] ... ||
+... [ eqi('don') eqi('\'') eqi('t') ] ... ;
+
+defSpanType negation =:
+... [ ai(negativeWords) ] ... ||
+... [ ai(negativeAdverbs) ] ... ||
+... [ ai(negativeAdjective) ] ... ||
+... [ @negatedVerbs ] ... ;
+
+defSpanType nestedNegation =idiom:
+ ... [ any* @negation any* ] ... ;
+
+defSpanType negated =:
+... [ @negation any{,2} @idiom ] ... ||
+... [ @nestedNegation ] ... ;
